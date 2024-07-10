@@ -1,0 +1,564 @@
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    margin: 0px;
+}
+
+body {
+    background-color: #0C0C0C;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: #47100B;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #c72715;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #ff3821;
+    border-radius: 10px;
+}
+
+.navbar {
+    background: rgb(10,10,10);
+    /* background: linear-gradient(180deg, rgba(10,10,10,0.8533788515406162) 90%, rgba(10,10,10,0) 100%); */
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nav-item {
+    text-align: center;
+    margin: 0px 5px;
+}
+
+.nav-link {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #E5321E;
+    border-bottom: 2px solid #E5321E;
+}
+
+.redesociais {
+    display: flex;
+}
+
+.inicio {
+    background: rgb(10,10,10);
+    height: 100vh;
+    padding-left: 5%;
+    padding-top: 66px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inicio .pfrase {
+    /* font-size: 30px; */
+    margin: 0px;
+    font-weight: 600;
+    color: white;
+}
+
+.inicio .pnome {
+    font-size: calc(1.375rem + 3.5vw);
+    font-weight: 700;
+    color: white;
+}
+
+.inicio .pfuncao {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 50%;
+
+    margin: 0px;
+    padding: 8px 15px;
+    border-radius: 10px;
+
+    color: black;
+    background-color: #E5321E;
+}
+
+.inicio .pfuncao p {
+    /* font-size: 22px; */
+    /* letter-spacing: 1.5px; */
+    font-weight: 600;
+}
+
+.inicio .pintroducao {
+    /* font-size: 20px; */
+    color: white;
+
+    width: 55%;
+    margin: 20px 0px;
+}
+
+.inicio .btncontato {
+    width: max-content;
+    padding: 10px 20px;
+
+    color:#E5321E;
+    /* font-size: 22px; */
+    font-weight: 500;
+
+    border: 3px solid #E5321E;
+
+    transition: 0.4s;
+}
+
+.offcanvas {
+    transition: 0.2s ease-in;
+}
+
+.offcanvas-header {
+    border-left: 2px solid #E5321E;
+    background-color: #E5321E;
+    color:black;
+}
+
+.offcanvas-body {
+    border-left: 2px solid #E5321E;
+    background-color: #0C0C0C;
+    padding-top: 30px;  
+}
+
+.offcanvas-title {
+    width: 100%;
+    text-align: center;
+    margin-left: 24px;
+}
+
+.offmenu {
+    margin: 10px 0px 10px;
+}
+
+.offredesociais {
+    display: flex;
+    flex-direction: row;
+}
+
+.offredesociais .nav-item {
+    margin: 0px 15px;
+}
+
+.sobre {
+    background-color: #0C0C0C;
+    padding: 0px 5% 50px;
+}
+
+.dtitulo {
+    position: relative;
+    padding: 80px 0px 15px;
+}
+
+.titulo {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: 25%;
+    margin: 0px;
+    color: white;
+}
+
+.dtitulo .ftitulo {
+    color: #47100B;
+    font-weight: 700;
+    font-size: calc(1.375rem + 3.5vw);
+    opacity: 0.5;
+}
+
+.sobtexto h3 {
+    color: #E5321E;
+}
+
+.sobtexto p {
+    color: white;
+    margin-left: 5%;
+}
+
+.sobjornada {
+    margin-bottom: 15px;
+}
+
+.sobjornada p {
+    margin-left: 5%;
+}
+
+.sobformacao {
+    margin-bottom: 15px;
+}
+
+.sobformacao p {
+    margin-left: 5%;
+}
+
+.sobformacao .minp {
+    margin-left: calc(5% + 15px);
+    opacity: 0.8;
+}
+
+.sobcurso {
+    margin-bottom: 15px;
+}
+
+.sobcurso .col {
+    padding-left: 5%;
+}
+
+.sobcurso .col .minp {
+    margin-left: calc(5% + 15px);
+    opacity: 0.8;
+}
+
+.habilidade {
+    background-color:rgb(10,10,10);
+    padding: 0px 5% 50px;
+}
+
+.habilidade h3 {
+    color: #E5321E;
+}
+
+.habilidade p {
+    color: white;
+}
+
+.habilidade .divhab {
+    padding-bottom: 20px;
+}
+
+.habilidade .hab {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.habilidade .progress {
+    height: 10px;
+    background-color: #1f1f1f;
+}
+
+.habilidade .progress-bar {
+    height: 9px;
+    background: #E5321E;
+}
+
+.habilidade .row {
+    margin-left: 2.5%;
+}
+
+.projeto {
+    padding: 0px 5% 50px;
+}
+
+.projeto .row {
+    margin: 0px 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.projeto .col {
+    text-align: center;
+    max-width: fit-content;
+}
+
+.projeto .btn {
+    color: white;
+    margin-bottom: 3px;
+}
+
+.projeto .btn.active {
+    color: #E5321E;
+    border: 0px solid #E5321E;
+    border-bottom: 2px solid #E5321E;
+    margin-bottom: 1px;
+    border-radius: 0px;
+}
+
+.projeto .btn:active {
+    border: 1px solid rgb(0, 0, 0, 0);
+    border-bottom: 2px solid #E5321E;
+    margin-bottom: 1px;
+    border-radius: 0px;
+}
+
+.projeto .row {
+    margin: 0px;
+}
+
+.projeto .col {
+    padding: 5px;
+}
+
+.projeto .col-6 {
+    padding: 0px;
+}
+
+.projeto figure {
+    margin: 0px;
+}
+
+.projeto .card-body {
+    display: flex;
+    height: 100%;
+    padding: 8px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projeto .card-text {
+    text-align: left;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.projeto .card-text .h6 {
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+
+.projeto .card-text .p {
+    padding-left: 4%;
+}
+
+.projeto .card-text .printitulo {
+    font-weight: 700;
+}
+
+.projeto .filterable-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projeto .filterable-cards .card {
+    flex-basis: 300px;
+    background-color: #101010;
+}
+
+.projeto .filterable-cards img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.projeto .filterable-cards .card-body {
+    justify-content: center;
+}
+
+.projeto .filterable-cards .card-breve {
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    padding: 10px;
+}
+
+.projeto .filterable-cards .card-text {
+    margin: 5px 0px 5px;
+    padding: 5px;
+    color: white;
+}
+
+.projeto .filterable-cards .card-text .h6 {
+    margin-left: 5px;
+}
+
+.projeto .filterable-cards .card-text .p {
+    font-weight: 700;
+}
+
+.contato {
+    background-color: #101010;
+    padding: 0px 5% 50px;
+}
+
+.contato form {
+    margin: 0px 10%;
+}
+
+.contato .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato .form-label {
+    color: #E5321E;
+    font-weight: 700;
+}
+
+.contato input, textarea {
+    margin-bottom: 15px;
+}
+
+.contato .dbutton {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contato .btnenviar {
+    padding: 10px 20px;
+    color: #E5321E;
+    width: 400px;
+    font-weight: 500;
+    border: 3px solid #E5321E;
+
+    transition: 0.4s;
+}
+
+.contato .txtretorno {
+    display: block;
+    text-align: center;
+    color: #E5321E;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 7px;
+
+    transition: all 0.5s;
+
+    display: none;
+}
+
+.contato .dredesociais {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contato .dredesociais a {
+    margin: 0px 15px;
+}
+
+.rodape, .rodape .navbar {
+    background-color: #E5321E;
+}
+
+.rodape .row {
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+}
+
+.rodape .col {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape .col .nav-link {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.rodape p {
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btncontato:hover, .btnenviar:hover {
+    background-color: #E5321E;
+    color: black;
+}
+
+@media (max-width: 991.98px) {
+    .redesociais {
+        display: none;
+    }
+
+    .inicio .pfuncao {
+        max-width: 65%;
+    }
+
+    .inicio .pintroducao {
+        width: 65%;
+    }
+
+    .rodape .navbar-brand {
+        width: 100%;
+        text-align: center;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .inicio {
+        text-align: center;
+        padding: 66px 5% 0px;
+    }
+
+    .inicio .pfuncao {
+        max-width: none;
+        margin: 0px 5%;
+    }
+
+    .inicio .pintroducao {
+        width: 100%;
+    }
+
+    .inicio .btncontato {
+        width: auto;
+        margin: 0px 20%;
+    }
+
+    .sobre .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre .sobtexto {
+        width: 100%;
+    }
+
+    .sobre .sobcurso .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .habilidade .divhab .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projeto .card .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projeto .card .baixo .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contato form {
+        margin: 0px;
+    }
+
+    .contato .btnenviar {
+        width: -webkit-fill-available;
+        margin: 0px 20%;
+    }
+}

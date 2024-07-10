@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DVD Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/dvd.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="./assets/img/logo.png" alt="David logo (DVD)" height="40">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link active" aria-current="page">INÍCIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sobre" class="nav-link">SOBRE MIM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#habilidade" class="nav-link">HABILIDADES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projeto" class="nav-link">PROJETOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="redesociais justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/david-torquato/" class="nav-link" target="_blank">
+                            <img src="./assets/img/linkedin.png" alt="linked-in" height="35">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.instagram.com/dvdriscad0/" class="nav-link" target="_blank">
+                            <img src="./assets/img/instagram.png" alt="instagram" height="35">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/dvdRiscado" class="nav-link" target="_blank">
+                            <img src="./assets/img/github.png" alt="git-hub" height="35">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Mobile -->
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title">MENU</h1>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body align-items-center">
+            <div id="navbarNav">
+                <ul class="offmenu navbar-nav">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-mobile nav-link">INÍCIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sobre" class="nav-mobile nav-link">SOBRE MIM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#habilidade" class="nav-mobile nav-link">HABILIDADES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projeto" class="nav-mobile nav-link">PROJETOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-mobile nav-link">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="offredesociais justify-content-center navbar-nav">
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/david-torquato/" class="nav-link" target="_blank">
+                            <img src="./assets/img/linkedin.png" alt="linked-in" height="35">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.instagram.com/dvdriscad0/" class="nav-link" target="_blank">
+                            <img src="./assets/img/instagram.png" alt="instagram" height="35">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/dvdRiscado" class="nav-link" target="_blank">
+                            <img src="./assets/img/github.png" alt="git-hub" height="35">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Principal -->
+     <main data-bs-spy="scroll" data-bs-target="#navbarNav">
+    
+        <!-- SESSÃO: Início -->
+        <section class="inicio container-fluid" id="inicio">
+            <p class="h2 pfrase">Olá! Me chamo</p>
+            <h1 class="pnome">DAVID <br> VASCONCELOS</h1>
+            <div class="h3 pfuncao">
+                <p>GRAPHIC DESIGNER</p>
+                <p>DEVELOPER FRONT-END</p>
+            </div>
+            <p class="pintroducao h5">Prazer, sou David Vasconcelos, um dedicado programador e designer gráficos, apaixonado em transformar ideias em realidade. Com uma combinação única de habilidades técnicas e criatividade, dedico-me a criar soluções digitais que são tanto funcionais quanto visualmente atraentes.</p>
+            <a href="#contato" class="btn btncontato">ENTRAR EM CONTATO</a>
+        </section>
+
+        <!-- SESSÃO: Sobre Mim -->
+        <section class="sobre container-fluid" id="sobre">
+            <div class="dtitulo text-center">
+                <span class="ftitulo">SOBRE MIM</span>
+                <h2 class="h2 titulo">SOBRE MIM</h2>
+            </div>
+            
+            <div class="row">
+                <div class="sobimagem col">
+                    <img src="" alt="">
+                </div>
+
+                <div class="sobtexto col-7">
+                    <div class="sobjornada">
+                        <h3>JORNADA</h3>
+                        <p>Minha trajetória no mundo da programação começou em 2020, quando eu entrei na Etec (Escola Técnica), descobri minha paixão por codificar websites,gerar ideias inovadoras e desenvolver soluções completas.</p>
+                        <p>Agora, o caminho da arte eu percorro desde pequeno, onde desenhava sempre quando era possível, pensando em animações, histórias e ilustrações. Meus conhecimentos foram aprofundados quando eu consegui uma bolsa na escola de artes Saga em 2022.</p>
+                        <p>Desde então, tenho aprendido novas ferramentas, softwares e trabalho em diversos projetos, desde pequenos sites e sistemas até algumas ilustrações e animações. Cada projeto é uma nova oportunidade de aprender e inovar.</p>
+                    </div>
+                    
+                    <div class="sobformacao">
+                        <h3>FORMAÇÃO</h3>
+                        <p>Desenvolvimento de Sistemas</p>
+                        <p class="minp">Instituição: Etec Abdias do Nascimento</p>
+                        <p class="minp">Duração: 2020 - 2022 | 3 anos</p>
+                    </div>
+
+                    <div class="sobcurso">
+                        <h3>EM CURSO</h3>
+                        <div class="row">
+                            <div class="col">
+                                <p>Análise e Desenvolvimento de Sistemas</p>
+                                <p class="minp">Instituição: Fatec Zona Sul</p>
+                                <p class="minp">Duração: 2023 - Em curso | 3 anos</p>
+                            </div>
+    
+                            <div class="col">
+                                <p>Experiência Modular</p>
+                                <p class="minp">Instituição: Escola Saga</p>
+                                <p class="minp">Duração: 2022 - Em curso | 2 anos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SESSÃO: Blog -->
+
+        <!-- SESSÃO: Habilidades -->
+        <section class="habilidade container-fluid" id="habilidade">
+            <div class="dtitulo text-center">
+                <span class="ftitulo">HABILIDADES</span>
+                <h2 class="titulo">HABILIDADES</h2>
+            </div>
+            
+            <div class="divhab">
+                <h3>Front-End</h3>
+                <div class="row">
+                    <div class="col">
+                        <div class="hab">
+                            <p>HTML</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="hab">
+                            <p>CSS</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="hab">
+                            <p>Javascript</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="hab">
+                            <p>Bootstrap</p>
+                            <p>60%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divhab">
+                <h3>Back-End</h3>
+                <div class="row">
+                    <div class="col">
+                        <div class="hab">
+                            <p>MySQL</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="hab">
+                            <p>Python</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="hab">
+                            <p>C++</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+            
+
+            <div class="divhab">
+                <h3>Design Gráfico</h3>
+                <div class="row">
+                    <div class="col">
+                        <div class="hab">
+                            <p>Adobe After Effects</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="hab">
+                            <p>Adobe Premiere</p>
+                            <p>75%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="hab">
+                            <p>Adobe Illustrator</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="hab">
+                            <p>GIMP</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </section>
+
+        <section class="projeto container-fluid" id="projeto">
+            <div class="dtitulo text-center">
+                <span class="ftitulo">PROJETOS</span>
+                <h2 class="titulo">PROJETOS</h2>
+            </div>
+            
+            <nav class="row filterable">
+                <div class="col">
+                    <button type="button" class="btn active" data-name="todos">Todos</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn" data-name="site">Sites</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn" data-name="aplicacao">Aplicações</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn" data-name="ilustracao">Ilustrações</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn" data-name="video">Vídeos</button>
+                </div>
+            </nav>
+
+            <div>
+                <div class="card destaque" style="background-color: #0E081C;">
+                    <div class="row">
+                        <div class="col">
+                            <figure>
+                                <img src="./assets/img/projetos/Wandinha.png" alt="Ilustração Wandinha" class="img-fluid rounded-start">
+                                <figcaption></figcaption>
+                            </figure>
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <div class="cima">
+                                    <div class="card-text">
+                                        <p class="h6">Nome:</p>
+                                        <p class="printitulo p">WANDINHA ADDAMS</p>
+                                    </div>
+                                    <div class="card-text">
+                                        <p class="h6">Descrição:</p>
+                                        <p class="p">Essa ilustração foi desenvolvida durante as aulas de Adobe Illustrator da Escola Saga, com o propósito de aprender a utilizar o Gradiente de modo linear ou radial.</p>
+                                        <p class="p">O que era, inicialmente, um simples projeto com um exemplo já estabelecido, se tornou mais completo e bem trabalhado.</p>
+                                        <p class="p">A inspiração da personagem se desenvolveu quando vi uma certa semelhança entre o exemplo mostrado e a Wandinha,  uma personagem que roubava a cena com o seu jeito sarcástico, apático, sombrio e atrevido.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="baixo">
+                                    <div class="card-text row">
+                                        <div class="col-6">
+                                            <p class="h6">Ferramentas:</p>
+                                            <p class="p">Abode Illustrator</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="h6">Instituição:</p>
+                                            <p class="p">Escola Saga</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterable-cards">
+                    <!-- 
+                    <div class="card" style="background-color: #0E081C;">
+                        <div class="card-body">
+                            <img src="./assets/img/projetos/Wandinha.png" alt="Ilustração Wandinha" class="card-img-top">
+                            <div class="card-text">
+                                <p class="h6">Ilustração</p>
+                                <p class="p text-center">WANDINHA ADDAMS</p>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-breve text-center" style="background-color: #E5321E;">EM PRODUÇÃO..</p>
+                            <div class="card-text">
+                                <p class="h6">Sites</p>
+                                <p class="p text-center">PORTFÓLIO</p>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
+                            <div class="card-text">
+                                <p class="h6">Illustração</p>
+                                <p class="p text-center">NOSTALGIA</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
+                            <div class="card-text">
+                                <p class="h6">Sites</p>
+                                <p class="p text-center">ASTEROIDS</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
+                            <div class="card-text">
+                                <p class="h6">Indefinido</p>
+                                <p class="p text-center">SEGREDO</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
+                            <div class="card-text">
+                                <p class="h6">Indefinido</p>
+                                <p class="p text-center">SEGREDO</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="contato container-fluid" id="contato">
+            <div class="dtitulo text-center">
+                <span class="ftitulo">CONTATO</span>
+                <h2 class="titulo">CONTATO</h2>
+            </div>
+
+            <form action="https://api.staticforms.xyz/submit" method="POST" class="form" target="none">
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label" for="name">Nome:</label>
+                        <input class="form-control" type="text" name="name" id="txtnome" placeholder="David Vasconcelos" required>
+                    </div>
+                    <div class="col">
+                        <label class="form-label" for="email">E-mail:</label>
+                        <input class="form-control" type="email" name="email" id="txtemail" placeholder="david.torquato@exemplo.com" required>
+                    </div>
+                </div>
+                <div>
+                    <label class="form-label" for="$title">Título:</label>
+                    <input class="form-control" type="text" name="$title" id="txtTitulo" placeholder="Qual assunto deseja abordar?" required>
+                </div>
+                <div>
+                    <label class="form-label" for="$message">Descrição:</label>
+                    <textarea class="form-control" name="$message" id="txtDescricao"  rows="7" placeholder="Fale-me mais sobre este tema.." required></textarea>
+                </div>
+
+                <div class="dbutton">
+                    <button type="submit" class="btn btnenviar">ENVIAR</button>
+                </div>
+
+                <p class="txtretorno">Mensagem enviada com sucesso!</p>
+
+                <input type="hidden" name="accessKey" value="3cc35405-073b-436f-ae01-d0c717be9797">
+                <input type="hidden" name="redirectTo" value="index.html">
+            </form>
+
+            <div class="dredesociais">
+                <a href="https://www.linkedin.com/in/david-torquato/" class="nav-link" target="_blank">
+                    <img src="./assets/img/linkedin.png" alt="linked-in" height="35">
+                </a>
+                <a href="https://www.instagram.com/dvdriscad0/" class="nav-link" target="_blank">
+                    <img src="./assets/img/instagram.png" alt="instagram" height="35">
+                </a>
+                <a href="https://github.com/dvdRiscado" class="nav-link" target="_blank">
+                    <img src="./assets/img/github.png" alt="git-hub" height="35">
+                </a>
+            </div>
+        </section>
+     </main>
+
+     <!-- Rodapé -->
+      <footer class="rodape">
+        <div class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="./assets/img/logo(dark).png" alt="David logo (DVD)" height="40">
+                </a>
+                <ul class="row navbar-nav">
+                    <li class="col nav-item">
+                        <a class="nav-link" href="#inicio">INÍCIO</a>
+                        <a class="nav-link" href="#sobre">SOBRE MIM</a>
+                        <a class="nav-link" href="#habilidade">HABILIDADES</a>
+                    </li>
+                    <li class="col nav-item">
+                        <a class="nav-link" href="#projeto">PROJETOS</a>
+                        <a class="nav-link" href="#contato">CONTATO</a>
+                    </li>
+                    <li class="col nav-item">
+                        <a class="nav-link">ÍCONES UTILIZADOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-align-center">©David Vasconcelos - DVD. Todos os Direitos Reservados.</p>
+      </footer>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

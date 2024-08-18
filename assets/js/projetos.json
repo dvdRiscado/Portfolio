@@ -1,0 +1,26 @@
+{
+    "projetos": [
+        {
+            "nome": "WANDINHA ADDAMS",
+            "topicos": ["Ilustração"],
+            "descricao": ["Essa ilustração foi desenvolvida durante as aulas de Adobe Illustrator da Escola Saga, com o propósito de aprender a utilizar o Gradiente de modo linear ou radial.", 
+                        "O que era, inicialmente, um simples projeto com um exemplo já estabelecido, se tornou mais completo e bem trabalhado.", 
+                        "A inspiração da personagem se desenvolveu quando vi uma certa semelhança entre o exemplo mostrado e a Wandinha, uma personagem que roubava a cena com o seu jeito sarcástico, apático, sombrio e atrevido."],
+            "ferramentas": ["Abode Illustrator"],
+            "instituição": ["Escola Saga"],
+            "background": "#0E081C",
+            "imagens": ["./assets/img/projetos/Wandinha.png", "Ilustração de Wandinha Addams"]
+        },
+        {
+            "nome": "PORTFOLIO",
+            "topicos": ["Ilustração"],
+            "descricao": ["Essa ilustração foi desenvolvida durante as aulas de Adobe Illustrator da Escola Saga, com o propósito de aprender a utilizar o Gradiente de modo linear ou radial.", 
+                        "O que era, inicialmente, um simples projeto com um exemplo já estabelecido, se tornou mais completo e bem trabalhado.", 
+                        "A inspiração da personagem se desenvolveu quando vi uma certa semelhança entre o exemplo mostrado e a Wandinha, uma personagem que roubava a cena com o seu jeito sarcástico, apático, sombrio e atrevido."],
+            "ferramentas": ["Abode Illustrator"],
+            "instituição": ["Escola Saga"],
+            "background": "#0E081C",
+            "imagens": ["#", "Ilustração de Wandinha Addams"]
+        }
+    ]
+}

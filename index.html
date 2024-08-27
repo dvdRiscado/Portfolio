@@ -319,133 +319,147 @@
                 <h2 class="titulo">PROJETOS</h2>
             </div>
             
-            <nav class="row filterable">
-                <div class="col">
-                    <button type="button" class="btn active" data-name="todos">Todos</button>
-                </div>
-                <div class="col">
-                    <button type="button" class="btn" data-name="site">Sites</button>
-                </div>
-                <div class="col">
-                    <button type="button" class="btn" data-name="aplicacao">Aplicações</button>
-                </div>
-                <div class="col">
-                    <button type="button" class="btn" data-name="ilustracao">Ilustrações</button>
-                </div>
-                <div class="col">
-                    <button type="button" class="btn" data-name="video">Vídeos</button>
-                </div>
-            </nav>
+            <div class="filtro">
+                <nav class="row">
+                    <div class="col">
+                        <button type="button" class="btn active" data-name="todos">Todos</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn" data-name="site">Sites</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn" data-name="aplicacao">Aplicações</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn" data-name="ilustracao">Ilustrações</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn" data-name="video">Vídeos</button>
+                    </div>
+                </nav>
+            </div>
 
-            <div class="projetos">
-                <!--
-                <div class="card destaque" style="background-color: #0E081C;">
-                    <div class="row">
-                        <div class="col">
-                            <figure>
-                                <img src="./assets/img/projetos/Wandinha.png" alt="Ilustração Wandinha" class="img-fluid rounded-start">
+            <section class="proj-destaque">
+                <div class="destaque row" style="background-color: #0E081C;">
+                    <div id="carouselExample" class="col carousel carousel-dark slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/img/imgTeste.jpg" alt="Texto" class="img-fluid rounded-start w-100">
                                 <figcaption></figcaption>
-                            </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/img/projetos/Wandinha.png" alt="Texto" class="img-fluid rounded-start w-100">
+                                <figcaption></figcaption>
+                            </div>
                         </div>
-                        <div class="col">
-                            <div class="card-body">
-                                <div class="cima">
-                                    <div class="card-text">
-                                        <p class="h6">Nome:</p>
-                                        <p class="printitulo p">WANDINHA ADDAMS</p>
-                                    </div>
-                                    <div class="card-text">
-                                        <p class="h6">Descrição:</p>
-                                        <p class="p">Essa ilustração foi desenvolvida durante as aulas de Adobe Illustrator da Escola Saga, com o propósito de aprender a utilizar o Gradiente de modo linear ou radial.</p>
-                                        <p class="p">O que era, inicialmente, um simples projeto com um exemplo já estabelecido, se tornou mais completo e bem trabalhado.</p>
-                                        <p class="p">A inspiração da personagem se desenvolveu quando vi uma certa semelhança entre o exemplo mostrado e a Wandinha,  uma personagem que roubava a cena com o seu jeito sarcástico, apático, sombrio e atrevido.</p>
-                                    </div>
+                        <button class="carousel-control-prev" data-bs-target="#carouselExample" type="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>                                        
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <div class="cima">
+                                <div class="card-text nome-projeto">
+                                    <p class="h6">Nome:</p>
+                                    <p class="printitulo p">---</p>
                                 </div>
-                                
-                                <div class="baixo">
-                                    <div class="card-text row">
-                                        <div class="col-6">
-                                            <p class="h6">Ferramentas:</p>
-                                            <p class="p">Abode Illustrator</p>
-                                        </div>
-                                        <div class="col-6">
-                                            <p class="h6">Instituição:</p>
-                                            <p class="p">Escola Saga</p>
-                                        </div>
+                                <div class="card-text descricao-projeto">
+                                    <p class="h6">Descrição:</p>
+                                    <p class="p">------</p>
+                                </div>
+                                <div class="card-text links-projeto">
+                                    <p class="h6">Links:</p>
+                                    <p class="p">------</p>
+                                </div>
+                            </div>
+                            
+                            <div class="baixo">
+                                <div class="card-text">
+                                    <div class="col-6 ferramentas-projeto">
+                                        <p class="h6">Ferramentas:</p>
+                                        <p class="p">---</p>
+                                    </div>
+                                    <div class="col-6 instituicao-projeto">
+                                        <p class="h6">Instituição:</p>
+                                        <p class="p">---</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="filterable-cards galeria">
+                <!-- 
+                <div class="card" style="background-color: #0E081C;">
+                    <div class="card-body">
+                        <img src="./assets/img/projetos/Wandinha.png" alt="Ilustração Wandinha" class="card-img-top">
+                        <div class="card-text">
+                            <p class="h6">Ilustração</p>
+                            <p class="p text-center">WANDINHA ADDAMS</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-breve text-center" style="background-color: #E5321E;">EM PRODUÇÃO..</p>
+                        <div class="card-text">
+                            <p class="h6">Sites</p>
+                            <p class="p text-center">PORTFÓLIO</p>
+                        </div>
+                        
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
+                        <div class="card-text">
+                            <p class="h6">Illustração</p>
+                            <p class="p text-center">NOSTALGIA</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
+                        <div class="card-text">
+                            <p class="h6">Sites</p>
+                            <p class="p text-center">ASTEROIDS</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
+                        <div class="card-text">
+                            <p class="h6">Indefinido</p>
+                            <p class="p text-center">SEGREDO</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
+                        <div class="card-text">
+                            <p class="h6">Indefinido</p>
+                            <p class="p text-center">SEGREDO</p>
+                        </div>
+
                     </div>
                 </div>
                 -->
-
-                <div class="filterable-cards">
-                    <!-- 
-                    <div class="card" style="background-color: #0E081C;">
-                        <div class="card-body">
-                            <img src="./assets/img/projetos/Wandinha.png" alt="Ilustração Wandinha" class="card-img-top">
-                            <div class="card-text">
-                                <p class="h6">Ilustração</p>
-                                <p class="p text-center">WANDINHA ADDAMS</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-breve text-center" style="background-color: #E5321E;">EM PRODUÇÃO..</p>
-                            <div class="card-text">
-                                <p class="h6">Sites</p>
-                                <p class="p text-center">PORTFÓLIO</p>
-                            </div>
-                            
-
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
-                            <div class="card-text">
-                                <p class="h6">Illustração</p>
-                                <p class="p text-center">NOSTALGIA</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
-                            <div class="card-text">
-                                <p class="h6">Sites</p>
-                                <p class="p text-center">ASTEROIDS</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
-                            <div class="card-text">
-                                <p class="h6">Indefinido</p>
-                                <p class="p text-center">SEGREDO</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
-                            <div class="card-text">
-                                <p class="h6">Indefinido</p>
-                                <p class="p text-center">SEGREDO</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    -->
-                    
-                </div>
+                
             </div>
         </section>
 

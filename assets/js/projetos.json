@@ -1,26 +1,28 @@
 {
     "projetos": [
         {
+            "id": 0,
             "nome": "WANDINHA ADDAMS",
-            "topicos": ["Ilustração"],
+            "topico": ["Ilustração"],
             "descricao": ["Essa ilustração foi desenvolvida durante as aulas de Adobe Illustrator da Escola Saga, com o propósito de aprender a utilizar o Gradiente de modo linear ou radial.", 
                         "O que era, inicialmente, um simples projeto com um exemplo já estabelecido, se tornou mais completo e bem trabalhado.", 
                         "A inspiração da personagem se desenvolveu quando vi uma certa semelhança entre o exemplo mostrado e a Wandinha, uma personagem que roubava a cena com o seu jeito sarcástico, apático, sombrio e atrevido."],
-            "ferramentas": ["Abode Illustrator"],
-            "instituição": ["Escola Saga"],
-            "background": "#0E081C",
-            "imagens": ["./assets/img/projetos/Wandinha.png", "Ilustração de Wandinha Addams"]
+            "link": [],
+            "ferramenta": ["Abode Illustrator"],
+            "instituicao": ["Escola Saga"],
+            "media": [["./assets/img/projetos/Wandinha.png", "Ilustração de Wandinha Addams"]],
+            "background": "#0E081C"
         },
         {
+            "id": 1,
             "nome": "PORTFOLIO",
-            "topicos": ["Ilustração"],
-            "descricao": ["Essa ilustração foi desenvolvida durante as aulas de Adobe Illustrator da Escola Saga, com o propósito de aprender a utilizar o Gradiente de modo linear ou radial.", 
-                        "O que era, inicialmente, um simples projeto com um exemplo já estabelecido, se tornou mais completo e bem trabalhado.", 
-                        "A inspiração da personagem se desenvolveu quando vi uma certa semelhança entre o exemplo mostrado e a Wandinha, uma personagem que roubava a cena com o seu jeito sarcástico, apático, sombrio e atrevido."],
-            "ferramentas": ["Abode Illustrator"],
-            "instituição": ["Escola Saga"],
-            "background": "#0E081C",
-            "imagens": ["#", "Ilustração de Wandinha Addams"]
+            "topico": ["Sites"],
+            "descricao": ["Tamanha loucura meus amigos"],
+            "link": [["https://www.figma.com/design/hgkSxogxgTckeO56xeu2t6/Portf%C3%B3lio(prot%C3%B3tipo)?node-id=0-1&t=jIpBcp6VEWoZ7byG-1", "Figma"]],
+            "ferramenta": ["HTML e CSS", "JavaScript", "Bootstrap"],
+            "instituicao": [],
+            "media": [["./assets/img/imgTeste.jpg", "Imagem Teste"]],
+            "background": "#101010"
         }
     ]
 }

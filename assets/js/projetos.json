@@ -16,13 +16,25 @@
         {
             "id": 1,
             "nome": "PORTFOLIO",
-            "topico": ["Sites"],
+            "topico": ["Site"],
             "descricao": ["Tamanha loucura meus amigos"],
             "link": [["https://www.figma.com/design/hgkSxogxgTckeO56xeu2t6/Portf%C3%B3lio(prot%C3%B3tipo)?node-id=0-1&t=jIpBcp6VEWoZ7byG-1", "Figma"]],
             "ferramenta": ["HTML e CSS", "JavaScript", "Bootstrap"],
             "instituicao": [],
             "media": [["./assets/img/imgTeste.jpg", "Imagem Teste"]],
             "background": "#101010"
+        },
+        {
+            "id": 2,
+            "nome": "PATOLINO O MAGO - FILME",
+            "topico": ["Composição", "Ilustração"],
+            "descricao": ["Essa ilustração foi desenvolvida durante as aulas de Adobe..."],
+            "link": [],
+            "ferramenta": ["Abode Photoshop"],
+            "instituicao": ["Escola Saga"],
+            "media": [["./assets/img/projetos/PosterPatolinoOMago.png", "Composição do Filme Patolino O Mago"]],
+            "background": "#000"
+            
         }
     ]
 }

@@ -322,19 +322,22 @@
             <div class="filtro">
                 <nav class="row">
                     <div class="col">
-                        <button type="button" class="btn active" data-name="todos">Todos</button>
+                        <button type="button" class="btn active" data-name="todos" onclick="filtrarProjetos('Todos')">Todos</button>
                     </div>
                     <div class="col">
-                        <button type="button" class="btn" data-name="site">Sites</button>
+                        <button type="button" class="btn" data-name="site" onclick="filtrarProjetos('Site')">Sites</button>
                     </div>
                     <div class="col">
-                        <button type="button" class="btn" data-name="aplicacao">Aplicações</button>
+                        <button type="button" class="btn" data-name="aplicacao" onclick="filtrarProjetos('Aplicação')">Aplicações</button>
                     </div>
                     <div class="col">
-                        <button type="button" class="btn" data-name="ilustracao">Ilustrações</button>
+                        <button type="button" class="btn" data-name="ilustracao" onclick="filtrarProjetos('Ilustração')">Ilustrações</button>
                     </div>
                     <div class="col">
-                        <button type="button" class="btn" data-name="video">Vídeos</button>
+                        <button type="button" class="btn" data-name="composicao" onclick="filtrarProjetos('Composição')">Composições</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn" data-name="video" onclick="filtrarProjetos('Vídeo')">Vídeos</button>
                     </div>
                 </nav>
             </div>

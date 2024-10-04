@@ -139,3 +139,29 @@ function abrirProjeto(id) {
     divProjDestaque.innerHTML = addHTML;
     console.log(addHTML);
 };
+
+function filtrarProjetos(filtro) {
+
+    divProjetos.innerHTML = ``;
+
+    // document.querySelector(".active").classList.remove("active");
+
+    
+    for (let id = 0; id < armProjetos["projetos"].length; id++) {
+        var projeto = armProjetos["projetos"][id];
+
+        if (projeto["topico"][0] == filtro || filtro == "Todos") {
+
+            divProjetos.innerHTML +=
+                `<div class="card" style="background-color: ${projeto.background};">
+                    <div class="card-body" onclick="abrirProjeto(${projeto.id});">
+                        <img src="${projeto.media[0][0]}" alt="${projeto.media[0][1]}" class="card-img-top">
+                        <div class="card-text">
+                            <p class="h6">${projeto.topico[0]}</p>
+                            <p class="p text-center">${projeto.nome}</p>
+                        </div>
+                    </div>
+                </div>`
+        };
+    };
+};

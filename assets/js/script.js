@@ -1,3 +1,5 @@
+let divFilterButtons = document.querySelectorAll('.filtro button');
+
 let divProjetos = document.querySelector('.filterable-cards');
 let divProjDestaque = document.querySelector('.proj-destaque');
 
@@ -41,15 +43,21 @@ function abrirProjeto(id) {
         `<div class="destaque row" style="background-color: ${projeto["background"]};">`;
 
     if (projeto["media"].length > 1) {
-        addHTML = `
+        addHTML += `
             <div id="carouselExample" class="col carousel carousel-dark slide">
                 <div class="carousel-inner">`;
 
             for (let i = 0; i < projeto["media"].length; i++) {
+                if (i == 0) {
+                    addHTML += `
+                    <div class="carousel-item active">`;
+                } else {
+                    addHTML += `
+                    <div class="carousel-item">`;
+                }
                 addHTML += `
-                    <div class="carousel-item">
                         <img src="${projeto["media"][i][0]}" alt="${projeto["media"][i][1]}" class="img-fluid rounded-start w-100">
-                        <figcaption>${projeto["media"][i][1]}</figcaption>
+                        <figcaption hidden>${projeto["media"][i][1]}</figcaption>
                     </div>`;
             };
 
@@ -139,6 +147,8 @@ function abrirProjeto(id) {
     divProjDestaque.innerHTML = addHTML;
     console.log(addHTML);
 };
+
+
 
 function filtrarProjetos(filtro) {
 

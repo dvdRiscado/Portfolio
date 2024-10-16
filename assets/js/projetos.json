@@ -32,7 +32,19 @@
             "link": [],
             "ferramenta": ["Abode Photoshop"],
             "instituicao": ["Escola Saga"],
-            "media": [["./assets/img/projetos/PosterPatolinoOMago.png", "Composição do Filme Patolino O Mago"]],
+            "media": [["./assets/img/projetos/PosterPatolinoOMago.png", "Composição do Filme Patolino O Mago"], ["./assets/img/projetos/MockupPosterPatolinoOMago_1.png", "1º Mockup da Composição do Filme Patolino O Mago"], ["./assets/img/projetos/MockupPosterPatolinoOMago_2.png", "2º Mockup da Composição do Filme Patolino O Mago"], ["./assets/img/projetos/MockupPosterPatolinoOMago_3.png", "3º Mockup da Composição do Filme Patolino O Mago"]],
+            "background": "#000"
+            
+        },
+        {
+            "id": 3,
+            "nome": "VALO BURGUER",
+            "topico": ["Composição", "Ilustração"],
+            "descricao": ["Essa ilustração foi desenvolvida durante as aulas de Adobe..."],
+            "link": [],
+            "ferramenta": ["Abode Photoshop"],
+            "instituicao": ["Escola Saga"],
+            "media": [["./assets/img/projetos/MockupValoBurguer(Box).png", "1º Mockup do Valo Burguer"], ["./assets/img/projetos/MockupValoBurguer(Cup).png", "2º Mockup do Valo Burguer"], ["./assets/img/projetos/MockupValoBurguer(Fries).png", "3º Mockup do Valo Burguer"]],
             "background": "#000"
             
         }

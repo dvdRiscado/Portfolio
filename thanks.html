@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DVD Portfólio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/dvd.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/thanks.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="./assets/img/logo.png" alt="David logo (DVD)" height="40">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html#inicio" class="nav-link" aria-current="page">INÍCIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#sobre" class="nav-link">SOBRE MIM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#habilidade" class="nav-link">HABILIDADES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#projeto" class="nav-link">PROJETOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#contato" class="nav-link">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="redesociais justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/david-torquato/" class="nav-link" target="_blank">
+                            <img src="./assets/img/linkedin.png" alt="linked-in" height="35">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.instagram.com/dvdriscad0/" class="nav-link" target="_blank">
+                            <img src="./assets/img/instagram.png" alt="instagram" height="35">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/dvdRiscado" class="nav-link" target="_blank">
+                            <img src="./assets/img/github.png" alt="git-hub" height="35">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Mobile -->
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title">MENU</h1>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body align-items-center">
+            <div id="navbarNav">
+                <ul class="offmenu navbar-nav">
+                    <li class="nav-item">
+                        <button data-bs-dismiss="offcanvas">
+                            <a href="index.html#inicio" class="nav-mobile nav-link" onclick="fecharOffCanvas()">INÍCIO</a>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button data-bs-dismiss="offcanvas">
+                            <a href="index.html#sobre" class="nav-mobile nav-link" onclick="fecharOffCanvas()">SOBRE MIM</a>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button data-bs-dismiss="offcanvas">
+                            <a href="index.html#habilidade" class="nav-mobile nav-link" onclick="fecharOffCanvas()">HABILIDADES</a>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button data-bs-dismiss="offcanvas">
+                            <a href="index.html#projeto" class="nav-mobile nav-link" onclick="fecharOffCanvas()">PROJETOS</a>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button data-bs-dismiss="offcanvas">
+                            <a href="index.html#contato" class="nav-mobile nav-link" onclick="fecharOffCanvas()">CONTATO</a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="offredesociais justify-content-center navbar-nav">
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/david-torquato/" class="nav-link" target="_blank">
+                            <img src="./assets/img/linkedin.png" alt="linked-in" height="35">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.instagram.com/dvdriscad0/" class="nav-link" target="_blank">
+                            <img src="./assets/img/instagram.png" alt="instagram" height="35">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/dvdRiscado" class="nav-link" target="_blank">
+                            <img src="./assets/img/github.png" alt="git-hub" height="35">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SESSÃO: Obrigado -->
+    <section class="obrigado container-fluid" id="inicio">
+        <span class="ftitulo">MUITO OBRIGADO</span>
+        <div class="dtitulo">
+            <p class="h2 pintroducao"> MUITO OBRIGADO </p>
+            <h1 class="pnome"> POR ENTRAR EM CONTATO! </h1>
+            <div class="h3 pfrase"> Em breve retornarei sua mensagem. </div>
+            <a href="index.html" class="btn btncontato">VOLTAR AO INÍCIO</a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="./assets/img/logo(dark).png" alt="David logo (DVD)" height="40">
+                </a>
+                <ul class="row navbar-nav">
+                    <li class="col nav-item">
+                        <a class="nav-link" href="#inicio">INÍCIO</a>
+                        <a class="nav-link" href="#sobre">SOBRE MIM</a>
+                        <a class="nav-link" href="#habilidade">HABILIDADES</a>
+                    </li>
+                    <li class="col nav-item">
+                        <a class="nav-link" href="#projeto">PROJETOS</a>
+                        <a class="nav-link" href="#contato">CONTATO</a>
+                    </li>
+                    <li class="col nav-item">
+                        <a class="nav-link">ÍCONES UTILIZADOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-align-center">©David Vasconcelos - DVD. Todos os Direitos Reservados.</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./assets/js/projetos.json"></script>
+</body>
+</html>

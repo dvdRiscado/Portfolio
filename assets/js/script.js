@@ -3,6 +3,10 @@ let divFilterButtons = document.querySelectorAll('.filtro button');
 let divProjetos = document.querySelector('.filterable-cards');
 let divProjDestaque = document.querySelector('.proj-destaque');
 
+let divNavbar = document.querySelector('.navbar');
+
+let divOffCanvas = document.querySelector('.offcanvas');
+
 var armProjetos;
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -19,7 +23,7 @@ fetch("./assets/js/projetos.json").then((response) => {
 
         objProjetos.projetos.map((projeto) => {
             divProjetos.innerHTML +=
-                `<div class="card" style="background-color: ${projeto.background};">
+                `<a class="card" style="background-color: ${projeto.background};" href="#projetoFiltro">
                     <div class="card-body" onclick="abrirProjeto(${projeto.id});">
                         <img src="${projeto.media[0][0]}" alt="${projeto.media[0][1]}" class="card-img-top">
                         <div class="card-text">
@@ -27,7 +31,7 @@ fetch("./assets/js/projetos.json").then((response) => {
                             <p class="p text-center">${projeto.nome}</p>
                         </div>
                     </div>
-                </div>`
+                </a>`
         });
 
         armProjetos = objProjetos;
@@ -40,7 +44,7 @@ function abrirProjeto(id) {
     console.log(projeto);
 
     var addHTML = 
-        `<div class="destaque row" style="background-color: ${projeto["background"]};">`;
+        `<div class="destaque row" style="background-color: ${projeto["background"]};" id="destaque">`;
 
     if (projeto["media"].length > 1) {
         addHTML += `
@@ -56,7 +60,7 @@ function abrirProjeto(id) {
                     <div class="carousel-item">`;
                 }
                 addHTML += `
-                        <img src="${projeto["media"][i][0]}" alt="${projeto["media"][i][1]}" class="img-fluid rounded-start w-100">
+                        <img src="${projeto["media"][i][0]}" alt="${projeto["media"][i][1]}" class="rounded-start">
                         <figcaption hidden>${projeto["media"][i][1]}</figcaption>
                     </div>`;
             };
@@ -75,7 +79,8 @@ function abrirProjeto(id) {
     } else {
         addHTML += `
             <div class="col">
-                <img src="${projeto["media"][0][0]}" alt="${projeto["media"][0][1]}" class="img-fluid rounded-start w-100">
+                <img src="${projeto["media"][0][0]}" alt="${projeto["media"][0][1]}" class="rounded-start">
+                <div class="btnFullscreen"></div>
             </div>`;
     };
 
@@ -150,12 +155,14 @@ function abrirProjeto(id) {
 
 
 
-function filtrarProjetos(filtro) {
+function filtrarProjetos(filtro, botao) {
+    var botoes = document.querySelector(".filtro .btn.active");
+    botoes.classList.remove("active");
+
+    var botaoEscolhido = document.querySelector("#" + botao);
+    botaoEscolhido.classList.add("active");
 
     divProjetos.innerHTML = ``;
-
-    // document.querySelector(".active").classList.remove("active");
-
     
     for (let id = 0; id < armProjetos["projetos"].length; id++) {
         var projeto = armProjetos["projetos"][id];
@@ -175,3 +182,17 @@ function filtrarProjetos(filtro) {
         };
     };
 };
+
+let lastScrollPosition = 0;
+
+window.addEventListener('scroll', function() {
+    let currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScrollPosition > lastScrollPosition) {
+        divNavbar.style.top = '-80px';
+    } else {
+        divNavbar.style.top = '0';
+    }
+
+    lastScrollPosition = currentScrollPosition;
+});

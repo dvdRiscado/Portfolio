@@ -42,9 +42,9 @@
             "topico": ["Composição", "Ilustração"],
             "descricao": ["Essa ilustração foi desenvolvida durante as aulas de Adobe..."],
             "link": [],
-            "ferramenta": ["Abode Photoshop"],
+            "ferramenta": ["Adobe Photoshop", "Adobe Illustrator"],
             "instituicao": ["Escola Saga"],
-            "media": [["./assets/img/projetos/MockupValoBurguer(Box).png", "1º Mockup do Valo Burguer"], ["./assets/img/projetos/MockupValoBurguer(Cup).png", "2º Mockup do Valo Burguer"], ["./assets/img/projetos/MockupValoBurguer(Fries).png", "3º Mockup do Valo Burguer"]],
+            "media": [["./assets/img/projetos/MockupValoBurguer(Box)x1024.png", "1º Mockup do Valo Burguer"], ["./assets/img/projetos/MockupValoBurguer(Cup)x1024.png", "2º Mockup do Valo Burguer"], ["./assets/img/projetos/MockupValoBurguer(Fries)x1024.png", "3º Mockup do Valo Burguer"]],
             "background": "#000"
             
         }

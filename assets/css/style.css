@@ -1,4 +1,4 @@
-html {
+* {
     scroll-behavior: smooth;
 }
 
@@ -30,6 +30,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .navbar {
     background: rgb(10,10,10);
+    transition: top 0.3s;
     /* background: linear-gradient(180deg, rgba(10,10,10,0.8533788515406162) 90%, rgba(10,10,10,0) 100%); */
     padding-left: 5%;
     padding-right: 5%;
@@ -143,6 +144,13 @@ body::-webkit-scrollbar-thumb:hover {
 
 .offmenu {
     margin: 10px 0px 10px;
+}
+
+.offmenu .nav-item button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0px solid;
+    width: 100%;
 }
 
 .offredesociais {
@@ -300,14 +308,43 @@ body::-webkit-scrollbar-thumb:hover {
     border-radius: 0px;
 }
 
+.projeto .destaque {
+    margin: 0px 0.5vh;
+    border-radius: 10px;
+}
+
 .projeto .destaque .col {
     padding: 5px;
     display: flex;
     align-items: center;
 }
 
+.projeto .destaque .carousel-dark .carousel-item {
+    text-align: center;
+}
+
 .projeto .destaque .carousel-dark .carousel-item img {
     border-radius: 10px;
+    max-height: 85vh;
+    height: auto;
+}
+
+.projeto .destaque img {
+    border-radius: 10px;
+    max-height: 85vh;
+    height: auto;
+    max-width: 100%;
+}
+
+.projeto .destaque .btnFullscreen {
+    border-radius: 10px;
+    max-height: 85vh;
+    max-width: 100%;
+
+    position: absolute;
+    top: 50%;
+
+    background-color: #0C0C0C;
 }
 
 .projeto .destaque .col-6 {

@@ -153,8 +153,6 @@ function abrirProjeto(id) {
     console.log(addHTML);
 };
 
-
-
 function filtrarProjetos(filtro, botao) {
     var botoes = document.querySelector(".filtro .btn.active");
     botoes.classList.remove("active");

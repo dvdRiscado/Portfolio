@@ -531,6 +531,15 @@ body::-webkit-scrollbar-thumb:hover {
     margin-bottom: 0px;
 }
 
+.rodape .card-body {
+    border: 1px solid rgb(12, 12, 12);
+    padding: 2px 10px 10px;
+    margin-top: 8px;
+    font-size: 16px;
+    text-align: start;
+    background-color: #e45342;
+}
+
 .rodape p {
     color: black;
     text-align: center;

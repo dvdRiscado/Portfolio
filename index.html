@@ -15,7 +15,7 @@
     <!-- Cabeçalho -->
     <header class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand">
+            <a href="#inicio" class="navbar-brand">
                 <img src="./assets/img/logo.png" alt="David logo (DVD)" height="40">
             </a>
 
@@ -483,7 +483,7 @@
                 <h2 class="titulo">CONTATO</h2>
             </div>
 
-            <form action="https://api.staticforms.xyz/submit" method="POST" class="form" target="none">
+            <form id="formContact" action="https://api.staticforms.xyz/submit" method="POST" class="form" target="_self">
                 
                 <input type="hidden" name="accessKey" value="3cc35405-073b-436f-ae01-d0c717be9797">
 
@@ -531,7 +531,7 @@
       <footer class="rodape">
         <div class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a href="#" class="navbar-brand">
+                <a href="#inicio" class="navbar-brand">
                     <img src="./assets/img/logo(dark).png" alt="David logo (DVD)" height="40">
                 </a>
                 <ul class="row navbar-nav">
@@ -545,7 +545,14 @@
                         <a class="nav-link" href="#contato">CONTATO</a>
                     </li>
                     <li class="col nav-item">
-                        <a class="nav-link">ÍCONES UTILIZADOS</a>
+                        <a class="nav-link" data-bs-toggle="collapse" href="#collapseIcons" role="button" aria-expanded="false" aria-controls="collapseIcons">ÍCONES UTILIZADOS</a>
+                        <div class="collapse" id="collapseIcons">
+                            <div class="card card-body">
+                                <a class="nav-link" href="https://www.flaticon.com/br/icones-gratis/linkedin" target="_blank" title="linkedin ícones">Ícone Linkedin por NajmunNahar - Flaticon</a>
+                                <a class="nav-link" href="https://www.flaticon.com/br/icones-gratis/github" target="_blank" title="github ícones">Ícone Github por Pixel perfect - Flaticon</a>
+                                <a class="nav-link" href="https://www.flaticon.com/br/icones-gratis/instagram" target="_blank" title="instagram ícones">Ícone Instagram por edt.im - Flaticon</a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>

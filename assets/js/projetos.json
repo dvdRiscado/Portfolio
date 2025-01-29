@@ -7,7 +7,7 @@
             "descricao": ["Essa ilustração foi desenvolvida durante as aulas de Adobe Illustrator da Escola Saga, com o propósito de aprender a utilizar o Gradiente de modo linear ou radial.", 
                         "O que era, inicialmente, um simples projeto com um exemplo já estabelecido, se tornou mais completo e bem trabalhado.", 
                         "A inspiração da personagem se desenvolveu quando vi uma certa semelhança entre o exemplo mostrado e a Wandinha, uma personagem que roubava a cena com o seu jeito sarcástico, apático, sombrio e atrevido."],
-            "link": [],
+            "link": [["https://www.behance.net/gallery/217933089/WANDINHA-ADDAMS", "Behance"]],
             "ferramenta": ["Abode Illustrator"],
             "instituicao": ["Escola Saga"],
             "media": [["./assets/img/projetos/Wandinha.png", "Ilustração de Wandinha Addams"]],
@@ -17,9 +17,10 @@
             "id": 1,
             "nome": "PORTFOLIO",
             "topico": ["Site"],
-            "descricao": ["Tamanha loucura meus amigos"],
-            "link": [["https://www.figma.com/design/hgkSxogxgTckeO56xeu2t6/Portf%C3%B3lio(prot%C3%B3tipo)?node-id=0-1&t=jIpBcp6VEWoZ7byG-1", "Figma"]],
-            "ferramenta": ["HTML e CSS", "JavaScript", "Bootstrap"],
+            "descricao": ["Pensando em uma página dedicada para os meus projetos, interesses e contato, desenvolvi um site Portfólio do zero utilizando as ferramentas Web tradicionais (HTML, CSS e JS) e o framework Bootstrap. ",
+                        "Inspirado em alguns trabalhos disponíveis no Pinterest e em projetos de colegas, O design foi desenvolvido na plataforma Figma, onde foi desenvolvido o protótipo e as escolhas de cores."],
+            "link": [["https://www.figma.com/design/hgkSxogxgTckeO56xeu2t6/Portf%C3%B3lio(prot%C3%B3tipo)?node-id=0-1&t=jIpBcp6VEWoZ7byG-1", "Figma"], ["https://github.com/dvdRiscado/Portfolio", "GitHub"]],
+            "ferramenta": ["HTML e CSS", "JavaScript", "Bootstrap", "Figma"],
             "instituicao": [],
             "media": [["./assets/img/imgTeste.jpg", "Imagem Teste"]],
             "background": "#101010"
@@ -27,13 +28,13 @@
         {
             "id": 2,
             "nome": "PATOLINO O MAGO - FILME",
-            "topico": ["Composição", "Ilustração"],
-            "descricao": ["Essa ilustração foi desenvolvida durante as aulas de Adobe..."],
-            "link": [],
+            "topico": ["Composição"],
+            "descricao": ["Essa composição foi desenvolvida durante as aulas de Adobe Photoshop da Escola Saga, com o propósito de utilizar tudo que aprendemos até agora sobre edição de imagens. O exemplo apresentado pela Saga era de um mago invocando seu poder com um fundo simples, mas pensei em uma ideia diferente.", "A inspiração apareceu durante as conversas que a nossa orientadora teve com a turma, sendo sobre magia, heróis e vilões. Durante essas conversas, veio em minha mente o Patolino O Mago em um filme live-action.", "No início, pensei em colocar uma torre de fundo, mas a ideia mudou rapidamente quando lembrei do filme do Doutor Estranho no Multiverso da Loucura. Então pensei, por que não fazer um filme com diversos magos e bruxos famosos contra o Patolino O Mago?"],
+            "link": [["https://www.behance.net/gallery/217957327/PATOLINO-O-MAGO-FILME", "Behance"]],
             "ferramenta": ["Abode Photoshop"],
             "instituicao": ["Escola Saga"],
-            "media": [["./assets/img/projetos/PosterPatolinoOMago.png", "Composição do Filme Patolino O Mago"], ["./assets/img/projetos/MockupPosterPatolinoOMago_1.png", "1º Mockup da Composição do Filme Patolino O Mago"], ["./assets/img/projetos/MockupPosterPatolinoOMago_2.png", "2º Mockup da Composição do Filme Patolino O Mago"], ["./assets/img/projetos/MockupPosterPatolinoOMago_3.png", "3º Mockup da Composição do Filme Patolino O Mago"]],
-            "background": "#000"
+            "media": [["./assets/img/projetos/PosterPatolinoOMago.png", "Composição do Filme Patolino O Mago"]],
+            "background": "#00000A"
             
         },
         {
@@ -45,8 +46,19 @@
             "ferramenta": ["Adobe Photoshop", "Adobe Illustrator"],
             "instituicao": ["Escola Saga"],
             "media": [["./assets/img/projetos/MockupValoBurguer(Box)x1024.png", "1º Mockup do Valo Burguer"], ["./assets/img/projetos/MockupValoBurguer(Cup)x1024.png", "2º Mockup do Valo Burguer"], ["./assets/img/projetos/MockupValoBurguer(Fries)x1024.png", "3º Mockup do Valo Burguer"]],
-            "background": "#000"
+            "background": "#101010"
             
+        },
+        {
+            "id": 4,
+            "nome": "PROJETO DONATELLO*",
+            "topico": ["Aplicação"],
+            "descricao": [""],
+            "link": [],
+            "ferramenta": ["React Native", "Expo", "SQLite", "Figma"],
+            "instituicao": [],
+            "media": [["./assets/img/imgTeste.jpg", "Imagem Teste"]],
+            "background": "#101010"
         }
     ]
 }

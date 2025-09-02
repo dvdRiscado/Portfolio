@@ -110,9 +110,12 @@
     },
     {
       "id": 5,
-      "nome": "My TaskBlock",
+      "nome": "MY TASKBLOCK",
       "topico": ["Site"],
-      "descricao": [""],
+      "descricao": [
+        "Com o objetivo de me aprofundar em tecnologias modernas de front-end, desenvolvi o My TaskBlock, um site próprio para gerenciamento de tarefas. O projeto foi construído utilizando React para a criação da interface e Tailwind CSS para a estilização.",
+        "Todo o desenvolvimento foi guiado por um curso gratuito do Felipe Rocha no YouTube, que serviu como base para aplicar os conceitos na prática e criar uma aplicação funcional do zero."
+      ],
       "link": [
         ["https://mytaskblock.vercel.app/", "Site"],
         ["https://github.com/dvdRiscado/React-MyTaskBlock", "GitHub"]

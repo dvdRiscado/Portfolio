@@ -4,7 +4,7 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este é um espaço onde apr
 
 **Link do Site:** [https://dvdrIscado.github.io/Portfolio/](https://dvdrIscado.github.io/Portfolio/)
 
-![Imagem do Portfolio]([LINK PARA UMA IMAGEM/PRINT DO SEU PORTFOLIO])
+![Imagem do Portfolio](assets/img/projetos/Portfolio_Inicio.png)
 
 ---
 
@@ -40,10 +40,13 @@ Visando a facilidade de atualização na aba de Projetos, foi desenvolvido um sc
 
 ```json
 {
-  "img": "caminho/para/imagem.png",
-  "title": "Nome do Projeto",
-  "description": "Uma breve descrição sobre o que o projeto faz, seus objetivos e os desafios enfrentados.",
-  "technologies": ["HTML", "CSS", "JavaScript"],
-  "repository_link": "link-para-o-repositorio-no-github",
-  "view_link": "link-para-o-deploy-do-projeto"
+  "id": 0,
+  "nome": "Nome do Projeto",
+  "topico": ["Site"],
+  "descricao": "Uma breve descrição sobre o que o projeto faz, seus objetivos e os desafios enfrentados.",
+  "link": [["link-para-o-site-do-projeto", "Texto do link"]],
+  "ferramenta": ["HTML", "CSS", "JavaScript"],
+  "instituicao": ["Instituição relacionada"],
+  "media": [["link-para-a-imagem-do-projeto", "Texto da imagem"]],
+  "background": "Código hexadecimal para a estilização do projeto."
 }

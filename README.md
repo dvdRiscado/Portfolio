@@ -50,3 +50,13 @@ Visando a facilidade de atualização na aba de Projetos, foi desenvolvido um sc
   "media": [["link-para-a-imagem-do-projeto", "Texto da imagem"]],
   "background": "Código hexadecimal para a estilização do projeto."
 }
+```
+---
+
+## 📬 Contato
+
+**David Vasconcelos Torquato**
+
+* **LinkedIn:** [https://www.linkedin.com/in/dvdriscado/](https://www.linkedin.com/in/dvdriscado/)
+* **GitHub:** [https://github.com/dvdRiscado](https://github.com/dvdRiscado)
+* **Email:** `david.torquato@outlook.com`

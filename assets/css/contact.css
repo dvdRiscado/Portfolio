@@ -31,7 +31,8 @@ textarea {
 .contato .btnenviar {
   padding: 10px 20px;
   color: #e5321e;
-  width: 400px;
+  width: 100%;
+  margin: 0px;
   font-weight: 500;
   border: 3px solid #e5321e;
 

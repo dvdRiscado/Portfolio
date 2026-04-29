@@ -1,3 +1,6 @@
+@import url("./header.css");
+@import url("./scrollbar.css");
+
 * {
   scroll-behavior: smooth;
 }
@@ -9,52 +12,6 @@ p {
 
 body {
   background-color: #0c0c0c;
-}
-
-body::-webkit-scrollbar {
-  width: 5px; /* width of the entire scrollbar */
-}
-
-body::-webkit-scrollbar-track {
-  background: #47100b;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #c72715;
-  border-radius: 10px;
-}
-
-body::-webkit-scrollbar-thumb:hover {
-  background-color: #ff3821;
-  border-radius: 10px;
-}
-
-.navbar {
-  background: rgb(10, 10, 10);
-  transition: top 0.3s;
-  /* background: linear-gradient(180deg, rgba(10,10,10,0.8533788515406162) 90%, rgba(10,10,10,0) 100%); */
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.nav-item {
-  text-align: center;
-  margin: 0px 5px;
-}
-
-.nav-link {
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-}
-
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
-  color: #e5321e;
-  border-bottom: 2px solid #e5321e;
-}
-
-.redesociais {
-  display: flex;
 }
 
 .inicio {

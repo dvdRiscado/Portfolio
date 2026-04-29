@@ -1,0 +1,64 @@
+.sobre {
+  background-color: #0c0c0c;
+  padding: 0px 5% 50px;
+}
+
+.sobtexto h3 {
+  color: #e5321e;
+}
+
+.sobtexto p {
+  color: white;
+  margin-left: 5%;
+}
+
+.sobjornada {
+  margin-bottom: 15px;
+}
+
+.sobjornada p {
+  margin-left: 5%;
+}
+
+.sobformacao {
+  margin-bottom: 15px;
+}
+
+.sobformacao p {
+  margin-left: 5%;
+}
+
+.sobformacao .minp {
+  margin-left: calc(5% + 15px);
+  opacity: 0.8;
+}
+
+.sobcurso {
+  margin-bottom: 15px;
+}
+
+.sobcurso .col {
+  padding-left: 5%;
+}
+
+.sobcurso .col .minp {
+  margin-left: calc(5% + 15px);
+  opacity: 0.8;
+}
+
+@media (max-width: 767.98px) {
+
+  .sobre .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sobre .sobtexto {
+    width: 100%;
+  }
+
+  .sobre .sobcurso .row {
+    display: flex;
+    flex-direction: row;
+  }
+}

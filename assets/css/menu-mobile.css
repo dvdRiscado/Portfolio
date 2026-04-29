@@ -1,0 +1,41 @@
+.offcanvas {
+  transition: 0.2s ease-in;
+}
+
+.offcanvas-header {
+  border-left: 2px solid #e5321e;
+  background-color: #e5321e;
+  color: black;
+}
+
+.offcanvas-body {
+  border-left: 2px solid #e5321e;
+  background-color: #0c0c0c;
+  padding-top: 30px;
+}
+
+.offcanvas-title {
+  width: 100%;
+  text-align: center;
+  margin-left: 24px;
+}
+
+.offmenu {
+  margin: 10px 0px 10px;
+}
+
+.offmenu .nav-item button {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 0px solid;
+  width: 100%;
+}
+
+.offredesociais {
+  display: flex;
+  flex-direction: row;
+}
+
+.offredesociais .nav-item {
+  margin: 0px 15px;
+}

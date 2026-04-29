@@ -1,0 +1,44 @@
+.rodape,
+.rodape .navbar {
+  background-color: #e5321e;
+}
+
+.rodape .row {
+  justify-content: center;
+  list-style-type: none;
+  width: 100%;
+}
+
+.rodape .col {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.rodape .col .nav-link {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.rodape .card-body {
+  border: 1px solid rgb(12, 12, 12);
+  padding: 2px 10px 10px;
+  margin-top: 8px;
+  font-size: 16px;
+  text-align: start;
+  background-color: #e45342;
+}
+
+.rodape p {
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 991.98px) {
+    .rodape .navbar-brand {
+    width: 100%;
+    text-align: center;
+    margin-left: 5px;
+  }
+}

@@ -1,0 +1,48 @@
+.navbar {
+  background: rgb(10, 10, 10);
+  transition: top 0.3s;
+  /* background: linear-gradient(180deg, rgba(10,10,10,0.8533788515406162) 90%, rgba(10,10,10,0) 100%); */
+  padding: 8px 30px;
+}
+
+.navbar .container-fluid {
+    padding: 0px;
+}
+
+.nav-item {
+  text-align: center;
+  margin: 0px 5px;
+}
+
+.nav-link {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #e5321e;
+  border-bottom: 2px solid #e5321e;
+}
+
+.redesociais {
+  display: flex;
+}
+
+@media (max-width: 991.98px) {
+  .redesociais {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    padding: 8px 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .navbar {
+    padding: 8px 70px;
+  }
+}

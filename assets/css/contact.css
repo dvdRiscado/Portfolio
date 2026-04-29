@@ -1,0 +1,64 @@
+.contato {
+  background-color: #101010;
+  padding: 0px 5% 50px;
+}
+
+.contato form {
+  margin: 0px 10%;
+}
+
+.contato .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.contato .form-label {
+  color: #e5321e;
+  font-weight: 700;
+}
+
+.contato input,
+textarea {
+  margin-bottom: 15px;
+}
+
+.contato .dbutton {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contato .btnenviar {
+  padding: 10px 20px;
+  color: #e5321e;
+  width: 400px;
+  font-weight: 500;
+  border: 3px solid #e5321e;
+
+  transition: 0.4s;
+}
+
+.contato .txtretorno {
+  display: block;
+  text-align: center;
+  color: #e5321e;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-bottom: 7px;
+
+  transition: all 0.5s;
+
+  display: none;
+}
+
+.contato .dredesociais {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contato .dredesociais a {
+  margin: 0px 15px;
+}

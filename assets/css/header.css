@@ -29,8 +29,10 @@
   display: flex;
 }
 
-@media screen and (min-width: 768px) {
-
+@media (max-width: 991.98px) {
+  .redesociais {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1024px) {

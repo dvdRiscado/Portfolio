@@ -3,14 +3,14 @@
 }
 
 .offcanvas-header {
-  border-left: 2px solid #e5321e;
-  background-color: #e5321e;
-  color: black;
+  border-left: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--text-primary-color);
 }
 
 .offcanvas-body {
-  border-left: 2px solid #e5321e;
-  background-color: #0c0c0c;
+  border-left: 2px solid var(--primary-color);
+  background-color: var(--background-secondary-color);
   padding-top: 30px;
 }
 
@@ -25,8 +25,8 @@
 }
 
 .offmenu .nav-item button {
-  background-color: rgba(0, 0, 0, 0);
-  color: white;
+  background-color: var(--background-secondary-color);
+  color: var(--text-secondary-color);
   border: 0px solid;
   width: 100%;
 }

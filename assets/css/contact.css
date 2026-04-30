@@ -1,5 +1,5 @@
 .contato {
-  background-color: #101010;
+  background-color: var(--background-terciary-color);
   padding: 0px 5% 50px;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .contato .form-label {
-  color: #e5321e;
+  color: var(--text-tertiary-color);
   font-weight: 700;
 }
 
@@ -28,21 +28,13 @@ textarea {
   margin-bottom: 15px;
 }
 
-.contato .btnenviar {
-  padding: 10px 20px;
-  color: #e5321e;
-  width: 100%;
-  margin: 0px;
-  font-weight: 500;
-  border: 3px solid #e5321e;
-
-  transition: 0.4s;
+.contato .btn {
 }
 
 .contato .txtretorno {
   display: block;
   text-align: center;
-  color: #e5321e;
+  color: var(--text-tertiary-color);
   font-weight: 700;
   letter-spacing: 2px;
   font-size: 20px;

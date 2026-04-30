@@ -1,14 +1,14 @@
 .sobre {
-  background-color: #0c0c0c;
+  background-color: var(--background-secondary-color);
   padding: 0px 5% 50px;
 }
 
 .sobtexto h3 {
-  color: #e5321e;
+  color: var(--text-tertiary-color);
 }
 
 .sobtexto p {
-  color: white;
+  color: var(--text-secondary-color);
   margin-left: 5%;
 }
 

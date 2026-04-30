@@ -8,7 +8,7 @@
 
 .projeto .filterable-cards .card {
   flex-basis: 400px;
-  background-color: #101010;
+  background-color: var(--background-terciary-color);
   border-radius: 10px;
   text-decoration: none;
 }
@@ -33,14 +33,14 @@
   justify-content: center;
   align-items: center;
 
-  color: black;
+  color: var(--text-primary-color);
   padding: 10px;
 }
 
 .projeto .filterable-cards .card-text {
   margin: 5px 0px 5px;
   padding: 5px;
-  color: white;
+  color: var(--text-secondary-color);
 }
 
 .projeto .filterable-cards .card-text .h6 {

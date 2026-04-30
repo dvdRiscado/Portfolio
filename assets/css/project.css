@@ -17,13 +17,17 @@
 }
 
 .projeto .filtro .btn {
-  color: white;
+  color: var(--text-secondary-color);
+  border: 0px solid var(--background-secondary-color);
+  border-bottom: 2px solid var(--background-secondary-color);
+  background-color: var(--background-secondary-color);
+
   margin-bottom: 3px;
 }
 
 .projeto .filtro .btn.active {
-  color: var(--text-primary-color);
-  border: 0px solid var(--primary-color);
+  color: var(--text-tertiary-color);
+  border: 0px solid var(--background-secondary-color);
   border-bottom: 2px solid var(--primary-color);
   margin-bottom: 1px;
   border-radius: 0px;
@@ -142,16 +146,5 @@
   .projeto .destaque .baixo .row {
     display: flex;
     flex-direction: column;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .contato form {
-    margin: 0px;
-  }
-
-  .contato .btnenviar {
-    width: -webkit-fill-available;
-    margin: 0px 20%;
   }
 }

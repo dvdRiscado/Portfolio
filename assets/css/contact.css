@@ -28,7 +28,8 @@ textarea {
   margin-bottom: 15px;
 }
 
-.contato .btn {
+.contato .dbutton .btn {
+  width: 80%;
 }
 
 .contato .txtretorno {
@@ -54,4 +55,10 @@ textarea {
 
 .contato .dredesociais a {
   margin: 0px 15px;
+}
+
+@media (max-width: 767.98px) {
+  .contato form {
+    margin: 0px;
+  }
 }

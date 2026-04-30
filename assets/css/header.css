@@ -1,7 +1,6 @@
 .navbar {
-  background: rgb(10, 10, 10);
+  background: var(--background-secondary-color);
   transition: top 0.3s;
-  /* background: linear-gradient(180deg, rgba(10,10,10,0.8533788515406162) 90%, rgba(10,10,10,0) 100%); */
   padding: 8px 30px;
 }
 
@@ -21,8 +20,8 @@
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-  color: #e5321e;
-  border-bottom: 2px solid #e5321e;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
 }
 
 .redesociais {

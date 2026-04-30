@@ -1,26 +1,35 @@
 :root {
-    --primary-color: #e5321e;
+  --primary-color: #e5321e;
+  --secondary-color: #47100b;
 
-    --background-primary-color: #212529;
-    --background-secondary-color: #0c0c0c;
-    --background-terciary-color: #101010;
+  --background-primary-color: #212529;
+  --background-secondary-color: #0c0c0c;
+  --background-terciary-color: #101010;
 
-    --text-primary-color: #222;
-    --text-secondary-color: #fff;
-    --text-tertiary-color: #e5321e;
+  --text-primary-color: #222;
+  --text-secondary-color: #fff;
+  --text-tertiary-color: #e5321e;
 }
 
 * {
   scroll-behavior: smooth;
+  text-decoration: none;
 }
 
 p {
   margin: 0px;
-  text-decoration: none;
 }
 
 body {
-  background-color: #0c0c0c;
+  background-color: var(--background-secondary-color);
+}
+
+header, footer {
+    padding: 8px 30px;
+}
+
+@media screen and (min-width: 1024px) {
+    
 }
 
 .dtitulo {
@@ -42,6 +51,16 @@ body {
   font-weight: 700;
   font-size: calc(1.375rem + 3.5vw);
   opacity: 0.5;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: #e5321e;
+  font-weight: 500;
+  border: 3px solid #e5321e;
+  margin: 0;
+  background-color: #101010;
+  transition: 0.4s;
 }
 
 .btncontato:hover,

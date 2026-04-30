@@ -1,14 +1,14 @@
 .habilidade {
-  background-color: rgb(10, 10, 10);
+  background-color: var(--background-terciary-color);
   padding: 0px 5% 50px;
 }
 
 .habilidade h3 {
-  color: #e5321e;
+  color: var(--text-tertiary-color);
 }
 
 .habilidade p {
-  color: white;
+  color: var(--text-secondary-color);
 }
 
 .habilidade .divhab {
@@ -23,12 +23,12 @@
 
 .habilidade .progress {
   height: 10px;
-  background-color: #1f1f1f;
+  background-color: var(--background-primary-color);
 }
 
 .habilidade .progress-bar {
   height: 9px;
-  background: #e5321e;
+  background: var(--primary-color);
 }
 
 .habilidade .row {

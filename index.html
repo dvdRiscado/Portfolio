@@ -20,7 +20,6 @@
 <body>
     <!-- Cabeçalho -->
     <header class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
-        <div class="container-fluid">
             <a href="#inicio" class="navbar-brand">
                 <img src="./assets/img/logo.png" alt="David logo (DVD)" height="40">
             </a>
@@ -134,27 +133,29 @@
      <main data-bs-spy="scroll" data-bs-target="#navbarNav">
     
         <!-- SESSÃO: Início -->
-        <section class="inicio container-fluid" id="inicio">
-            <!-- <span class="filtro"></span> -->
-            <p class="p pfrase">Olá! Eu sou</p>
-            <h1 class="h1 pnome">DAVID <br> VASCONCELOS</h1>
-            <div class="p pfuncao">
-                <div>
-                    <p>DESIGNER </p>
-                    <p>GRAPHIC</p>
+        <section class="inicio" id="inicio">
+            <div class="content">
+                <p class="p pfrase">Olá! Eu sou</p>
+                <h1 class="h1 pnome">DAVID <br> VASCONCELOS</h1>
+                <div class="p pfuncao">
+                    <div>
+                        <p>DESIGNER </p>
+                        <p>GRAPHIC</p>
+                    </div>
+                    <div>
+                        <p>DEVELOPER </p>
+                        <p>FRONT-END</p>
+                    </div>
                 </div>
-                <div>
-                    <p>DEVELOPER </p>
-                    <p>FRONT-END</p>
-                </div>
+                <p class="pintroducao h5">Prazer, sou David Vasconcelos, um dedicado programador e designer gráfico, apaixonado em transformar ideias em realidade com uma combinação única de habilidades técnicas e criatividade.</p>
+                <a href="#contato" class="btn btncontato">ENTRAR EM CONTATO</a>
             </div>
-            <p class="pintroducao h5">Prazer, sou David Vasconcelos, um dedicado programador e designer gráfico, apaixonado em transformar ideias em realidade com uma combinação única de habilidades técnicas e criatividade.</p>
-            <a href="#contato" class="btn btncontato">ENTRAR EM CONTATO</a>
         </section>
 
         <!-- SESSÃO: Sobre Mim -->
-        <section class="sobre container-fluid" id="sobre">
-            <div class="dtitulo text-center">
+        <section class="sobre" id="sobre">
+            <div class="content">
+                <div class="dtitulo text-center">
                 <span class="ftitulo">SOBRE MIM</span>
                 <h2 class="h2 titulo">SOBRE MIM</h2>
             </div>
@@ -197,13 +198,15 @@
                     </div>
                 </div>
             </div>
+            </div>
         </section>
 
         <!-- SESSÃO: Blog -->
 
         <!-- SESSÃO: Habilidades -->
-        <section class="habilidade container-fluid" id="habilidade">
-            <div class="dtitulo text-center">
+        <section class="habilidade" id="habilidade">
+            <div class="content">
+                <div class="dtitulo text-center">
                 <span class="ftitulo">HABILIDADES</span>
                 <h2 class="titulo">HABILIDADES</h2>
             </div>
@@ -372,166 +375,170 @@
                     <div class="col"></div>
                 </div>  
             </div>
+            </div>
         </section>
 
         <section class="projeto container-fluid" id="projeto">
-            <div class="dtitulo text-center">
-                <span class="ftitulo">PROJETOS</span>
-                <h2 class="titulo">PROJETOS</h2>
-            </div>
+            <div class="content">
+                <div class="dtitulo text-center">
+                    <span class="ftitulo">PROJETOS</span>
+                    <h2 class="titulo">PROJETOS</h2>
+                </div>
             
-            <div class="filtro" id="projetoFiltro">
-                <nav class="row">
-                    <div class="col">
-                        <button type="button" id="btnTodos" class="btn active" data-name="todos" onclick="filtrarProjetos('Todos', 'btnTodos')">Todos</button>
-                    </div>
-                    <div class="col">
-                        <button type="button" id="btnSite" class="btn" data-name="site" onclick="filtrarProjetos('Site', 'btnSite')">Sites</button>
-                    </div>
-                    <div class="col">
-                        <button type="button" id="btnAplicacao" class="btn" data-name="aplicacao" onclick="filtrarProjetos('Aplicação', 'btnAplicacao')">Aplicações</button>
-                    </div>
-                    <div class="col">
-                        <button type="button" id="btnIlustracao" class="btn" data-name="ilustracao" onclick="filtrarProjetos('Ilustração', 'btnIlustracao')">Ilustrações</button>
-                    </div>
-                    <div class="col">
-                        <button type="button" id="btnComposicao" class="btn" data-name="composicao" onclick="filtrarProjetos('Composição', 'btnComposicao')">Composições</button>
-                    </div>
-                    <div class="col">
-                        <button type="button" id="btnVideos" class="btn" data-name="video" onclick="filtrarProjetos('Vídeo', 'btnVideos')">Vídeos</button>
-                    </div>
-                </nav>
-            </div>
+                <div class="filtro" id="projetoFiltro">
+                    <nav class="row">
+                        <div class="col">
+                            <button type="button" id="btnTodos" class="btn active" data-name="todos" onclick="filtrarProjetos('Todos', 'btnTodos')">Todos</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" id="btnSite" class="btn" data-name="site" onclick="filtrarProjetos('Site', 'btnSite')">Sites</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" id="btnAplicacao" class="btn" data-name="aplicacao" onclick="filtrarProjetos('Aplicação', 'btnAplicacao')">Aplicações</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" id="btnIlustracao" class="btn" data-name="ilustracao" onclick="filtrarProjetos('Ilustração', 'btnIlustracao')">Ilustrações</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" id="btnComposicao" class="btn" data-name="composicao" onclick="filtrarProjetos('Composição', 'btnComposicao')">Composições</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" id="btnVideos" class="btn" data-name="video" onclick="filtrarProjetos('Vídeo', 'btnVideos')">Vídeos</button>
+                        </div>
+                    </nav>
+                </div>
 
-            <section class="proj-destaque">
-                <!--
-                <div class="destaque row" id="destaque" style="background-color: #0E081C;">
-                    <div id="carouselExample" class="col carousel carousel-dark slide">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/img/imgTeste.jpg" alt="Texto" class="img-fluid rounded-start w-100">
-                                <figcaption></figcaption>
+                <section class="proj-destaque">
+                    <!--
+                    <div class="destaque row" id="destaque" style="background-color: #0E081C;">
+                        <div id="carouselExample" class="col carousel carousel-dark slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/img/imgTeste.jpg" alt="Texto" class="img-fluid rounded-start w-100">
+                                    <figcaption></figcaption>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/projetos/Wandinha.png" alt="Texto" class="img-fluid rounded-start w-100">
+                                    <figcaption></figcaption>
+                                </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img/projetos/Wandinha.png" alt="Texto" class="img-fluid rounded-start w-100">
-                                <figcaption></figcaption>
+                            <button class="carousel-control-prev" data-bs-target="#carouselExample" type="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>                                        
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <div class="cima">
+                                    <div class="card-text nome-projeto">
+                                        <p class="h6">Nome:</p>
+                                        <p class="printitulo p">---</p>
+                                    </div>
+                                    <div class="card-text descricao-projeto">
+                                        <p class="h6">Descrição:</p>
+                                        <p class="p">------</p>
+                                    </div>
+                                    <div class="card-text links-projeto">
+                                        <p class="h6">Links:</p>
+                                        <p class="p">------</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="baixo">
+                                    <div class="card-text">
+                                        <div class="col-6 ferramentas-projeto">
+                                            <p class="h6">Ferramentas:</p>
+                                            <p class="p">---</p>
+                                        </div>
+                                        <div class="col-6 instituicao-projeto">
+                                            <p class="h6">Instituição:</p>
+                                            <p class="p">---</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" data-bs-target="#carouselExample" type="button" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>                                        
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    <div class="col">
+                        -->
+                    </section>
+                
+
+                <div class="filterable-cards galeria">
+                    <!-- 
+                    <div class="card" style="background-color: #0E081C;">
                         <div class="card-body">
-                            <div class="cima">
-                                <div class="card-text nome-projeto">
-                                    <p class="h6">Nome:</p>
-                                    <p class="printitulo p">---</p>
-                                </div>
-                                <div class="card-text descricao-projeto">
-                                    <p class="h6">Descrição:</p>
-                                    <p class="p">------</p>
-                                </div>
-                                <div class="card-text links-projeto">
-                                    <p class="h6">Links:</p>
-                                    <p class="p">------</p>
-                                </div>
+                            <img src="./assets/img/projetos/Wandinha.png" alt="Ilustração Wandinha" class="card-img-top">
+                            <div class="card-text">
+                                <p class="h6">Ilustração</p>
+                                <p class="p text-center">WANDINHA ADDAMS</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-breve text-center" style="background-color: #E5321E;">EM PRODUÇÃO..</p>
+                            <div class="card-text">
+                                <p class="h6">Sites</p>
+                                <p class="p text-center">PORTFÓLIO</p>
                             </div>
                             
-                            <div class="baixo">
-                                <div class="card-text">
-                                    <div class="col-6 ferramentas-projeto">
-                                        <p class="h6">Ferramentas:</p>
-                                        <p class="p">---</p>
-                                    </div>
-                                    <div class="col-6 instituicao-projeto">
-                                        <p class="h6">Instituição:</p>
-                                        <p class="p">---</p>
-                                    </div>
-                                </div>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
+                            <div class="card-text">
+                                <p class="h6">Illustração</p>
+                                <p class="p text-center">NOSTALGIA</p>
                             </div>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
+                            <div class="card-text">
+                                <p class="h6">Sites</p>
+                                <p class="p text-center">ASTEROIDS</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
+                            <div class="card-text">
+                                <p class="h6">Indefinido</p>
+                                <p class="p text-center">SEGREDO</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
+                            <div class="card-text">
+                                <p class="h6">Indefinido</p>
+                                <p class="p text-center">SEGREDO</p>
+                            </div>
+
                         </div>
                     </div>
                     -->
+                    
                 </div>
-            </section>
-
-            <div class="filterable-cards galeria">
-                <!-- 
-                <div class="card" style="background-color: #0E081C;">
-                    <div class="card-body">
-                        <img src="./assets/img/projetos/Wandinha.png" alt="Ilustração Wandinha" class="card-img-top">
-                        <div class="card-text">
-                            <p class="h6">Ilustração</p>
-                            <p class="p text-center">WANDINHA ADDAMS</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-breve text-center" style="background-color: #E5321E;">EM PRODUÇÃO..</p>
-                        <div class="card-text">
-                            <p class="h6">Sites</p>
-                            <p class="p text-center">PORTFÓLIO</p>
-                        </div>
-                        
-
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
-                        <div class="card-text">
-                            <p class="h6">Illustração</p>
-                            <p class="p text-center">NOSTALGIA</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
-                        <div class="card-text">
-                            <p class="h6">Sites</p>
-                            <p class="p text-center">ASTEROIDS</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
-                        <div class="card-text">
-                            <p class="h6">Indefinido</p>
-                            <p class="p text-center">SEGREDO</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-breve text-center" style="background-color: #E5321E;">EM BREVE!</p>
-                        <div class="card-text">
-                            <p class="h6">Indefinido</p>
-                            <p class="p text-center">SEGREDO</p>
-                        </div>
-
-                    </div>
-                </div>
-                -->
-                
             </div>
         </section>
 
         <!-- CONTATO -->
-        <section class="contato container-fluid" id="contato">
-            <div class="dtitulo text-center">
+        <section class="contato" id="contato">
+            <div class="content">
+                <div class="dtitulo text-center">
                 <span class="ftitulo">CONTATO</span>
                 <h2 class="titulo">CONTATO</h2>
             </div>
@@ -577,13 +584,13 @@
                     <img src="./assets/img/github.png" alt="git-hub" height="35">
                 </a>
             </div>
+            </div>
         </section>
      </main>
 
      <!-- Rodapé -->
       <footer class="rodape">
         <div class="navbar navbar-expand-lg">
-            <div class="container-fluid">
                 <a href="#inicio" class="navbar-brand">
                     <img src="./assets/img/logo(dark).png" alt="David logo (DVD)" height="40">
                 </a>
@@ -608,7 +615,6 @@
                         </div>
                     </li>
                 </ul>
-            </div>
         </div>
         <p class="text-align-center">©David Vasconcelos - DVD. Todos os Direitos Reservados.</p>
       </footer>

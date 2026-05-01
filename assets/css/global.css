@@ -25,23 +25,25 @@ body {
 }
 
 header, footer {
-    padding: 8px 30px;
+    padding: 8px 30px !important;
 }
 
-@media screen and (min-width: 1024px) {
-    
+.content {
+  width: 340px;
+  padding: 20px 0px;
+  margin: 0px auto;
 }
 
 .dtitulo {
   position: relative;
-  padding: 80px 0px 15px;
+  padding-bottom: 15px;
 }
 
 .titulo {
   left: 50%;
   position: absolute;
   transform: translateX(-50%);
-  bottom: 25%;
+  bottom: 25px;
   margin: 0px;
   color: white;
 }
@@ -68,4 +70,34 @@ header, footer {
 .btnenviar:hover {
   background-color: #e5321e;
   color: black;
+}
+
+@media screen and (min-width: 768px) {
+  header, footer {
+    padding: 8px 40px !important;
+  }
+
+  .content {
+    width: 648px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header, footer {
+    padding: 8px 60px !important;
+  }
+
+  .content {
+    width: 900px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  header, footer {
+    padding: 8px 80px !important;
+  }
+
+  .content {
+      width: 1200px;
+  }
 }

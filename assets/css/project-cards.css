@@ -7,9 +7,8 @@
 }
 
 .projeto .filterable-cards .card {
-  flex-basis: 400px;
+  flex-basis: 340px;
   background-color: var(--background-terciary-color);
-  border-radius: 10px;
   text-decoration: none;
 }
 
@@ -22,7 +21,6 @@
 .projeto .filterable-cards .card-body {
   justify-content: center;
   padding: 10px;
-  border-radius: 10px;
 }
 
 .projeto .filterable-cards .card-breve {
@@ -54,4 +52,30 @@
 .projeto .filterable-cards .card-body:hover {
   filter: brightness(110%);
   padding: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .projeto .filterable-cards .card {
+    flex-basis: 314px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projeto .filterable-cards .card {
+    flex-basis: 420px;
+  }
+
+  .projeto .filterable-cards img {
+    max-height: 250px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projeto .filterable-cards .card {
+    flex-basis: 386px;
+  }
+
+  .projeto .filterable-cards img {
+    max-height: 200px;
+  }
 }

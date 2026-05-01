@@ -1,11 +1,6 @@
 .navbar {
   background: var(--background-secondary-color);
   transition: top 0.3s;
-  padding: 8px 30px;
-}
-
-.navbar .container-fluid {
-    padding: 0px;
 }
 
 .nav-item {
@@ -31,17 +26,5 @@
 @media (max-width: 991.98px) {
   .redesociais {
     display: none;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .navbar {
-    padding: 8px 60px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .navbar {
-    padding: 8px 70px;
   }
 }

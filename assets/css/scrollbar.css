@@ -1,17 +1,17 @@
 body::-webkit-scrollbar {
-  width: 5px; /* width of the entire scrollbar */
+  width: 8px; /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: #47100b;
+  background: var(--secondary-color);
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #c72715;
+  background-color: var(--primary-color);
   border-radius: 10px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background-color: #ff3821;
+  background-color: #fd3a24;
   border-radius: 10px;
-}
+} 

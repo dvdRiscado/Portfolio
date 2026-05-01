@@ -1,15 +1,14 @@
 .sobre {
-  background-color: #0c0c0c;
-  padding: 0px 5% 50px;
+  background-color: var(--background-secondary-color);
 }
 
 .sobtexto h3 {
-  color: #e5321e;
+  color: var(--text-tertiary-color);
 }
 
 .sobtexto p {
-  color: white;
-  margin-left: 5%;
+  color: var(--text-secondary-color);
+  margin-left: 25px;
 }
 
 .sobjornada {
@@ -17,7 +16,8 @@
 }
 
 .sobjornada p {
-  margin-left: 5%;
+  margin-left: 25px;
+  margin-bottom: 10px;
 }
 
 .sobformacao {
@@ -46,7 +46,7 @@
   opacity: 0.8;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
 
   .sobre .row {
     display: flex;

@@ -1,10 +1,9 @@
 .contato {
   background-color: var(--background-terciary-color);
-  padding: 0px 5% 50px;
 }
 
 .contato form {
-  margin: 0px 10%;
+  margin: 0px 20%;
 }
 
 .contato .row {

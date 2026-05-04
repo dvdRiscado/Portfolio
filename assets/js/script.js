@@ -79,11 +79,24 @@ function abrirProjeto(id) {
                     </button>
                 </div>`;
         } else {
-            addHTML += `
+
+            if(projeto["media"][0][0].toLowerCase().endsWith(".mp4")) {
+                addHTML += `
+                <div class="col">
+                    <video autoplay>
+                        <source src="${projeto["media"][0][0]}" type="video/mp4">
+  
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="btnFullscreen"></div>
+                </div>`;
+            } else {
+                addHTML += `
                 <div class="col">
                     <img src="${projeto["media"][0][0]}" alt="${projeto["media"][0][1]}" class="rounded-start">
                     <div class="btnFullscreen"></div>
                 </div>`;
+            }
         };
 
         addHTML += `

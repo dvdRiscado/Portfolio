@@ -141,6 +141,46 @@
           "Tela de Início do My TaskBlock"
         ]
       ]
+    },
+    {
+      "id" : 6,
+      "nome" : "JORNADA VIAGENS",
+      "topico" : ["Site"],
+      "descricao" : [
+        "Site desenvolvido durante o curso de responsividade da formação Front-End Alura."
+      ],
+      "link" : [
+        ["https://dvdriscado.github.io/Alura-JornadaViagens/", "Site"],
+        ["https://github.com/dvdRiscado/Alura-JornadaViagens", "Github"],
+        ["https://www.figma.com/design/TXnjaPMfJW0AriRTtxmEYG/Jornada-Viagens---Acervo--Fa%C3%A7a-uma-c%C3%B3pia-?node-id=0-1&t=UhGcJo4Le7NU7wGs-1", "Figma"]
+      ],
+      "ferramenta" : ["HTML e CSS", "Figma"],
+      "instituicao": ["Alura"],
+      "icon" : ["./assets/img/projetos-icons/jornada-viagens-icon.jpg"],
+      "media": [
+        [
+          "./assets/img/projetos/jornada-viagens-mobile.jpg",
+          "Tela de Início do Jornada Viagens"
+        ]
+      ]
+    },
+    {
+      "id" : 7,
+      "nome" : "BIBLIOFZS",
+      "topico" : ["Aplicação", "Site"],
+      "descricao" : [
+        "Projeto acadêmico que apresenta um software de gerenciamento para a biblioteca da Fatec Zona Sul, com o propósito de modernizar os processos de controle de acervo, empréstimos, devoluções e reservas.",
+        "Esse projeto foi desenvolvido como Trabalho de Conclusão de Curso para a habilitação profissional de Tecnólogo em Análise e Desenvolvimento de Sistemas."
+      ],
+      "link" : [
+        ["https://github.com/dvdRiscado/BiblioFZS-Mobile", "Github"],
+        ["https://www.figma.com/design/c8rdjPsVfnpG80KzMui4NY/Projeto-BiblioFZS?node-id=0-1&t=ZvZoHpSP6e9PLuLr-1", "Figma"],
+        ["https://drive.google.com/file/d/10rYaAymKmici3LLiROKJKVBX_lcT-yaS/view?usp=sharing", "Monografia"]
+      ],
+      "ferramenta" : ["React Native", "Expo", "TypeScript", "Figma"],
+      "instituicao": ["Fatec Zona Sul"],
+      "icon": ["./assets/img/imgTeste.jpg", "Imagem Teste"],
+      "media": [["./assets/img/projetos/bibliofzs-mobile-video.gif", "Video da aplicação"]]
     }
   ]
 }

@@ -24,9 +24,9 @@ fetch("./assets/js/projetos.json").then((response) => {
 
         objProjetos.projetos.map((projeto) => {
             divProjetos.innerHTML +=
-                `<a class="card" style="background-color: ${projeto.background};" href="#projetoFiltro">
+                `<a class="card" href="#projetoFiltro">
                     <div class="card-body" onclick="abrirProjeto(${projeto.id});">
-                        <img src="${projeto.media[0][0]}" alt="${projeto.media[0][1]}" class="card-img-top">
+                        <img src="${projeto.icon[0]}" alt="${projeto.icon[1]}" class="card-img-top">
                         <div class="card-text">
                             <p class="h6">${projeto.topico[0]}</p>
                             <p class="p text-center">${projeto.nome}</p>
@@ -46,7 +46,7 @@ function abrirProjeto(id) {
         console.log(projeto);
 
         var addHTML = 
-            `<div class="destaque row" style="background-color: ${projeto["background"]};" id="destaque">`;
+            `<div class="destaque row" id="destaque">`;
 
         if (projeto["media"].length > 1) {
             addHTML += `

@@ -44,6 +44,7 @@
 
 .projeto .destaque {
   margin: 0px 0.5vh;
+  background-color: var(--background-terciary-color);
 }
 
 .projeto .destaque .col {

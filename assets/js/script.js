@@ -209,7 +209,7 @@ function filtrarProjetos(filtro, botao) {
 
         if (filtro == "Todos") {
             divProjetos.innerHTML +=
-                    `<div class="card" style="background-color: ${projeto.background};">
+                    `<a class="card" href="#projetoFiltro">
                         <div class="card-body" onclick="abrirProjeto(${projeto.id});">
                             <img src="${projeto.icon[0]}" alt="${projeto.icon[1]}" class="card-img-top">
                             <div class="card-text">
@@ -217,13 +217,13 @@ function filtrarProjetos(filtro, botao) {
                                 <p class="p text-center">${projeto.nome}</p>
                             </div>
                         </div>
-                    </div>`
+                    </a>`
 
         } 
         for (var i = 0; i <= projeto["topico"].length; i++) {
             if (projeto["topico"][i] == filtro) {
                 divProjetos.innerHTML +=
-                    `<div class="card" style="background-color: ${projeto.background};">
+                    `<a class="card" href="#projetoFiltro">
                         <div class="card-body" onclick="abrirProjeto(${projeto.id});">
                             <img src="${projeto.icon[0]}" alt="${projeto.icon[1]}" class="card-img-top">
                             <div class="card-text">
@@ -231,7 +231,7 @@ function filtrarProjetos(filtro, botao) {
                                 <p class="p text-center">${projeto.nome}</p>
                             </div>
                         </div>
-                    </div>`
+                    </a>`
             };  
         };
     };

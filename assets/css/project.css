@@ -109,15 +109,15 @@
 
 .projeto .destaque .card-text .h6 {
   opacity: 0.7;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .projeto .destaque .card-text .p {
-  padding-left: 4%;
+  padding-left: 8px;
 }
 
 .projeto .destaque .card-text.descricao-projeto .p {
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 
 .projeto .destaque .card-text .printitulo {
@@ -134,7 +134,7 @@
 }
 
 .projeto .destaque .card-text.links-projeto .div-links {
-  padding-left: 4%;
+  padding-left: 8px;
   display: flex;
   gap: 10px;
 }

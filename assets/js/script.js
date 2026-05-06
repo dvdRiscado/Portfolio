@@ -61,10 +61,22 @@ function abrirProjeto(id) {
                         addHTML += `
                         <div class="carousel-item">`;
                     }
-                    addHTML += `
+
+                    if(projeto["media"][i][0].toLowerCase().endsWith(".mp4")) {
+                        addHTML += `
+                            <video autoplay>
+                                <source src="${projeto["media"][i][0]}" type="video/mp4">
+        
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="btnFullscreen"></div>
+                        </div>`
+                    } else {
+                        addHTML += `
                             <img src="${projeto["media"][i][0]}" alt="${projeto["media"][i][1]}" class="rounded-start">
                             <figcaption hidden>${projeto["media"][i][1]}</figcaption>
                         </div>`;
+                    }
                 };
 
             addHTML += `
@@ -121,13 +133,15 @@ function abrirProjeto(id) {
         if (projeto["link"].length > 0) {
             addHTML += `
                             <div class="card-text links-projeto">
-                                <p class="h6">Links:</p>`;
+                                <p class="h6">Links:</p>
+                                <div class="div-links">`;
 
             for (let i = 0; i < projeto["link"].length; i++) {
                 addHTML += `
-                                <a class="a" href="${projeto["link"][i][0]}" target="_blank">${projeto["link"][i][1]}</a>`;
+                                    <a class="a" href="${projeto["link"][i][0]}" target="_blank">${projeto["link"][i][1]}</a>`;
             }
-            addHTML += `</div>`;
+            addHTML += `</div>
+                    </div>`;
         }
 
         addHTML += `
@@ -197,7 +211,7 @@ function filtrarProjetos(filtro, botao) {
             divProjetos.innerHTML +=
                     `<div class="card" style="background-color: ${projeto.background};">
                         <div class="card-body" onclick="abrirProjeto(${projeto.id});">
-                            <img src="${projeto.media[0][0]}" alt="${projeto.media[0][1]}" class="card-img-top">
+                            <img src="${projeto.icon[0]}" alt="${projeto.icon[1]}" class="card-img-top">
                             <div class="card-text">
                                 <p class="h6">${projeto.topico[0]}</p>
                                 <p class="p text-center">${projeto.nome}</p>
@@ -211,7 +225,7 @@ function filtrarProjetos(filtro, botao) {
                 divProjetos.innerHTML +=
                     `<div class="card" style="background-color: ${projeto.background};">
                         <div class="card-body" onclick="abrirProjeto(${projeto.id});">
-                            <img src="${projeto.media[0][0]}" alt="${projeto.media[0][1]}" class="card-img-top">
+                            <img src="${projeto.icon[0]}" alt="${projeto.icon[1]}" class="card-img-top">
                             <div class="card-text">
                                 <p class="h6">${projeto.topico[0]}</p>
                                 <p class="p text-center">${projeto.nome}</p>

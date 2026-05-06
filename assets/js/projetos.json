@@ -111,17 +111,6 @@
     },
     {
       "id": 4,
-      "nome": "PROJETO DONATELLO*",
-      "topico": ["Aplicação"],
-      "descricao": [""],
-      "link": [],
-      "ferramenta": ["React Native", "Expo", "SQLite", "Figma"],
-      "instituicao": [],
-      "icon": ["./assets/img/imgTeste.jpg", "Imagem Teste"],
-      "media": [["./assets/img/imgTeste.jpg", "Imagem Teste"]]
-    },
-    {
-      "id": 5,
       "nome": "MY TASKBLOCK",
       "topico": ["Site"],
       "descricao": [
@@ -143,7 +132,7 @@
       ]
     },
     {
-      "id" : 6,
+      "id" : 5,
       "nome" : "JORNADA VIAGENS",
       "topico" : ["Site"],
       "descricao" : [
@@ -165,7 +154,7 @@
       ]
     },
     {
-      "id" : 7,
+      "id" : 6,
       "nome" : "BIBLIOFZS",
       "topico" : ["Aplicação", "Site"],
       "descricao" : [
@@ -179,8 +168,8 @@
       ],
       "ferramenta" : ["React Native", "Expo", "TypeScript", "Figma"],
       "instituicao": ["Fatec Zona Sul"],
-      "icon": ["./assets/img/imgTeste.jpg", "Imagem Teste"],
-      "media": [["./assets/img/projetos/bibliofzs-mobile-video.gif", "Video da aplicação"]]
+      "icon": ["./assets/img/projetos-icons/bibliofzs-icon.jpg", "Icone da aplicação BiblioFZS"],
+      "media": [["./assets/img/projetos/bibliofzs-mobile-video.mp4", "Video da aplicação"], ["./assets/img/projetos/bibliofzs-tela-principal-mobile.jpg", "Tela Inicial da aplicação BiblioFZS"], ["./assets/img/projetos/bibliofzs-catalogo-mobile.jpg", "Tela do Catálogo da aplicação BiblioFZS"], ["./assets/img/projetos/bibliofzs-detalhes-livro-mobile.jpg", "Tela de Detalhes dos livros da aplicação BiblioFZS"], ["./assets/img/projetos/bibliofzs-perfil-mobile.jpg", "Tela do perfil da aplicação BiblioFZS"], ["./assets/img/projetos/bibliofzs-icon-mobile.jpg", "Icone da aplicação BiblioFZS"]]
     }
   ]
 }

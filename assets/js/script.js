@@ -65,7 +65,7 @@ function abrirProjeto(id) {
                     if(projeto["media"][i][0].toLowerCase().endsWith(".mp4")) {
                         addHTML += `
                             <video autoplay>
-                                <source src="${projeto["media"][i][0]}" type="video/mp4">
+                                <source src="${projeto["media"][i][0]}" type="video/mp4" loop>
         
                                 Your browser does not support the video tag.
                             </video>

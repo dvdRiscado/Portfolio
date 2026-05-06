@@ -40,18 +40,20 @@ header, footer {
 }
 
 .titulo {
+  font-size: 25px;
+  font-weight: 600;
   left: 50%;
   position: absolute;
   transform: translateX(-50%);
-  bottom: 25px;
+  bottom: 32%;
   margin: 0px;
   color: white;
 }
 
 .dtitulo .ftitulo {
   color: #47100b;
-  font-weight: 700;
-  font-size: calc(1.375rem + 3.5vw);
+  font-weight: 800;
+  font-size: 40px;
   opacity: 0.5;
 }
 
@@ -73,6 +75,14 @@ header, footer {
 }
 
 @media screen and (min-width: 768px) {
+  .titulo {
+    font-size: 40px;
+  }
+
+  .dtitulo .ftitulo {
+    font-size: 65px;
+  }
+
   header, footer {
     padding: 8px 40px !important;
   }

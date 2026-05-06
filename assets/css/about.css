@@ -3,6 +3,8 @@
 }
 
 .sobtexto h3 {
+  font-weight: 600;
+  font-size: 26px;
   color: var(--text-tertiary-color);
 }
 
@@ -46,8 +48,7 @@
   opacity: 0.8;
 }
 
-@media (max-width: 768px) {
-
+@media (max-width: 767.98px) {
   .sobre .row {
     display: flex;
     flex-direction: column;
@@ -55,6 +56,10 @@
 
   .sobre .sobtexto {
     width: 100%;
+  }
+
+  .sobre .sobtexto h3 {
+    font-size: 22px; 
   }
 
   .sobre .sobcurso .row {

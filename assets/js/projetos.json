@@ -14,10 +14,10 @@
       ],
       "ferramenta": ["Abode Illustrator"],
       "instituicao": ["Escola Saga"],
+      "icon": ["./assets/img/projetos-icons/wandinha-icon.jpg", "Ilustração de Wandinha Addams"],
       "media": [
-        ["./assets/img/projetos/Wandinha.png", "Ilustração de Wandinha Addams"]
-      ],
-      "background": "#0E081C"
+        ["./assets/img/projetos/wandinha-mobile.jpg", "Ilustração de Wandinha Addams"]
+      ]
     },
     {
       "id": 1,
@@ -36,13 +36,13 @@
       ],
       "ferramenta": ["HTML e CSS", "JavaScript", "Bootstrap", "Figma"],
       "instituicao": [],
+      "icon": ["./assets/img/projetos-icons/portfolio-icon.jpg", "Captura de Tela da sessão Início do Portfolio"],
       "media": [
         [
-          "./assets/img/projetos/Portfolio_Inicio.png",
-          "Tela da sessão Início do Portfolio"
+          "./assets/img/projetos/portfolio-mobile.jpg",
+          "Captura de Tela da sessão Início do Portfolio"
         ]
-      ],
-      "background": "#140402"
+      ]
     },
     {
       "id": 2,
@@ -61,13 +61,25 @@
       ],
       "ferramenta": ["Abode Photoshop"],
       "instituicao": ["Escola Saga"],
+      "icon": ["./assets/img/projetos-icons/patolino-icon.jpg", "Composição do Filme Patolino O Mago"],
       "media": [
         [
-          "./assets/img/projetos/PosterPatolinoOMago.png",
+          "./assets/img/projetos/patolino-mobile.jpg",
           "Composição do Filme Patolino O Mago"
+        ],
+        [
+          "./assets/img/projetos/patolino-mockup-1-mobile.jpg",
+          "1ª Mockup da Composição do Filme Patolino O Mago"
+        ],
+        [
+          "./assets/img/projetos/patolino-mockup-2-mobile.jpg",
+          "2ª Mockup da Composição do Filme Patolino O Mago"
+        ],
+        [
+          "./assets/img/projetos/patolino-mockup-3-mobile.jpg",
+          "3ª Mockup da Composição do Filme Patolino O Mago"
         ]
-      ],
-      "background": "#00000A"
+      ]
     },
     {
       "id": 3,
@@ -81,35 +93,24 @@
       "link": [],
       "ferramenta": ["Adobe Photoshop", "Adobe Illustrator"],
       "instituicao": ["Escola Saga"],
+      "icon": ["./assets/img/projetos-icons/valoburguer-mockup-2-icon.jpg", "1º Mockup do Valo Burguer"],
       "media": [
         [
-          "./assets/img/projetos/MockupValoBurguer(Box)x1024.png",
+          "./assets/img/projetos/valoburguer-mockup-2-mobile.jpg",
           "1º Mockup do Valo Burguer"
         ],
         [
-          "./assets/img/projetos/MockupValoBurguer(Cup)x1024.png",
+          "./assets/img/projetos/valoburguer-mockup-1-mobile.jpg",
           "2º Mockup do Valo Burguer"
         ],
         [
-          "./assets/img/projetos/MockupValoBurguer(Fries)x1024.png",
+          "./assets/img/projetos/valoburguer-mockup-3-mobile.jpg",
           "3º Mockup do Valo Burguer"
         ]
-      ],
-      "background": "#19160c"
+      ]
     },
     {
       "id": 4,
-      "nome": "PROJETO DONATELLO*",
-      "topico": ["Aplicação"],
-      "descricao": [""],
-      "link": [],
-      "ferramenta": ["React Native", "Expo", "SQLite", "Figma"],
-      "instituicao": [],
-      "media": [["./assets/img/imgTeste.jpg", "Imagem Teste"]],
-      "background": "#101010"
-    },
-    {
-      "id": 5,
       "nome": "MY TASKBLOCK",
       "topico": ["Site"],
       "descricao": [
@@ -122,13 +123,53 @@
       ],
       "ferramenta": ["React", "Tailwind", "Vite", "Vercel"],
       "instituicao": [],
+      "icon": ["./assets/img/projetos-icons/taskblock-icon.jpg"],
       "media": [
         [
-          "./assets/img/projetos/MyTaskBlock_Inicio.png",
+          "./assets/img/projetos/taskblock-mobile.jpg",
           "Tela de Início do My TaskBlock"
         ]
+      ]
+    },
+    {
+      "id" : 5,
+      "nome" : "JORNADA VIAGENS",
+      "topico" : ["Site"],
+      "descricao" : [
+        "Site desenvolvido durante o curso de responsividade da formação Front-End Alura."
       ],
-      "background": "#101010"
+      "link" : [
+        ["https://dvdriscado.github.io/Alura-JornadaViagens/", "Site"],
+        ["https://github.com/dvdRiscado/Alura-JornadaViagens", "Github"],
+        ["https://www.figma.com/design/TXnjaPMfJW0AriRTtxmEYG/Jornada-Viagens---Acervo--Fa%C3%A7a-uma-c%C3%B3pia-?node-id=0-1&t=UhGcJo4Le7NU7wGs-1", "Figma"]
+      ],
+      "ferramenta" : ["HTML e CSS", "Figma"],
+      "instituicao": ["Alura"],
+      "icon" : ["./assets/img/projetos-icons/jornada-viagens-icon.jpg"],
+      "media": [
+        [
+          "./assets/img/projetos/jornada-viagens-mobile.jpg",
+          "Tela de Início do Jornada Viagens"
+        ]
+      ]
+    },
+    {
+      "id" : 6,
+      "nome" : "BIBLIOFZS",
+      "topico" : ["Aplicação", "Site"],
+      "descricao" : [
+        "Projeto acadêmico que apresenta um software de gerenciamento para a biblioteca da Fatec Zona Sul, com o propósito de modernizar os processos de controle de acervo, empréstimos, devoluções e reservas.",
+        "Esse projeto foi desenvolvido como Trabalho de Conclusão de Curso para a habilitação profissional de Tecnólogo em Análise e Desenvolvimento de Sistemas."
+      ],
+      "link" : [
+        ["https://github.com/dvdRiscado/BiblioFZS-Mobile", "Github"],
+        ["https://www.figma.com/design/c8rdjPsVfnpG80KzMui4NY/Projeto-BiblioFZS?node-id=0-1&t=ZvZoHpSP6e9PLuLr-1", "Figma"],
+        ["https://drive.google.com/file/d/10rYaAymKmici3LLiROKJKVBX_lcT-yaS/view?usp=sharing", "Monografia"]
+      ],
+      "ferramenta" : ["React Native", "Expo", "TypeScript", "Figma"],
+      "instituicao": ["Fatec Zona Sul"],
+      "icon": ["./assets/img/projetos-icons/bibliofzs-icon.jpg", "Icone da aplicação BiblioFZS"],
+      "media": [["./assets/img/projetos/bibliofzs-mobile-video.mp4", "Video da aplicação"], ["./assets/img/projetos/bibliofzs-tela-principal-mobile.jpg", "Tela Inicial da aplicação BiblioFZS"], ["./assets/img/projetos/bibliofzs-catalogo-mobile.jpg", "Tela do Catálogo da aplicação BiblioFZS"], ["./assets/img/projetos/bibliofzs-detalhes-livro-mobile.jpg", "Tela de Detalhes dos livros da aplicação BiblioFZS"], ["./assets/img/projetos/bibliofzs-perfil-mobile.jpg", "Tela do perfil da aplicação BiblioFZS"], ["./assets/img/projetos/bibliofzs-icon-mobile.jpg", "Icone da aplicação BiblioFZS"]]
     }
   ]
 }

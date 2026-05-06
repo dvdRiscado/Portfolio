@@ -18,7 +18,7 @@
 }
 
 .sobjornada p {
-  margin-left: 25px;
+  margin-left: 8px;
   margin-bottom: 10px;
 }
 
@@ -27,11 +27,15 @@
 }
 
 .sobformacao p {
-  margin-left: 5%;
+  margin-left: 8px;
+}
+
+.sobformacao .col {
+  margin-bottom: 10px;
 }
 
 .sobformacao .minp {
-  margin-left: calc(5% + 15px);
+  margin-left: 24px;
   opacity: 0.8;
 }
 
@@ -39,12 +43,12 @@
   margin-bottom: 15px;
 }
 
-.sobcurso .col {
-  padding-left: 5%;
+.sobcurso p {
+  margin-left: 8px;
 }
 
 .sobcurso .col .minp {
-  margin-left: calc(5% + 15px);
+  margin-left: 24px;
   opacity: 0.8;
 }
 

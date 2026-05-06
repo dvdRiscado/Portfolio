@@ -3,6 +3,11 @@
   background-color: var(--primary-color);
 }
 
+.navbar-brand {
+  margin: 0;
+  margin-left: 10px;
+}
+
 .rodape .row {
   justify-content: center;
   list-style-type: none;
@@ -35,10 +40,15 @@
   padding-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .rodape .navbar {
+    justify-content: center;
+  }
+}
+
 @media (max-width: 991.98px) {
     .rodape .navbar-brand {
     width: 100%;
     text-align: center;
-    margin-left: 5px;
   }
 }

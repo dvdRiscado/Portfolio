@@ -2,9 +2,9 @@
 
 Bem-vindo ao repositório do meu portfólio pessoal! Este é um espaço onde apresento meus projetos, habilidades e a jornada que venho trilhando no mundo do desenvolvimento. O projeto foi construído com foco na simplicidade, com uma boa aparência e na facilidade de manutenção.
 
-**Link do Site:** [https://dvdrIscado.github.io/Portfolio/](https://dvdrIscado.github.io/Portfolio/)
+**Link do Site:** [https://dvdriscado.github.io/Portfolio/](https://dvdriscado.github.io/Portfolio/)
 
-![Imagem do Portfolio](assets/img/projetos/Portfolio_Inicio.png)
+![Imagem do Portfolio](assets/img/projetos/portfolio-mobile.jpg)
 
 ---
 
